@@ -1,0 +1,104 @@
+{
+  "model": "jev-1.13.0",
+  "core_active": {
+    "n": 12,
+    "statuses": {
+      "abstained": 11,
+      "verified_commit": 1
+    },
+    "greedy_reference_identified": 10
+  },
+  "revision": {
+    "history": {
+      "correct": 44,
+      "n": 54,
+      "mean_state_bytes": 668.5925925925926,
+      "max_state_bytes": 1175,
+      "input_tokens": 36821
+    },
+    "ledger": {
+      "correct": 53,
+      "n": 54,
+      "mean_state_bytes": 257.5925925925926,
+      "max_state_bytes": 262,
+      "input_tokens": 26844
+    }
+  },
+  "batch": {
+    "single": {
+      "correct": 8,
+      "n": 24
+    },
+    "batch8": {
+      "correct": 10,
+      "n": 24
+    },
+    "batch8_reverse": {
+      "correct": 13,
+      "n": 24
+    }
+  },
+  "batch_order_answer_flips": 3,
+  "injection": {
+    "correct": 24,
+    "n": 24
+  },
+  "fresh_guided_followup": {
+    "unguided": {
+      "verified_commits": 0,
+      "n": 12,
+      "test_budget_spent": 11
+    },
+    "guided": {
+      "verified_commits": 12,
+      "n": 12,
+      "test_budget_spent": 44
+    },
+    "greedy_reference": {
+      "identified": 12,
+      "n": 12
+    }
+  },
+  "confidence_risk_curve": [
+    {
+      "threshold": 0.5,
+      "accepted": 199,
+      "total": 204,
+      "coverage": 0.9754901960784313,
+      "errors": 51,
+      "accuracy": 0.7437185929648241
+    },
+    {
+      "threshold": 0.7,
+      "accepted": 127,
+      "total": 204,
+      "coverage": 0.6225490196078431,
+      "errors": 16,
+      "accuracy": 0.8740157480314961
+    },
+    {
+      "threshold": 0.9,
+      "accepted": 91,
+      "total": 204,
+      "coverage": 0.44607843137254904,
+      "errors": 1,
+      "accuracy": 0.989010989010989
+    },
+    {
+      "threshold": 0.95,
+      "accepted": 74,
+      "total": 204,
+      "coverage": 0.3627450980392157,
+      "errors": 1,
+      "accuracy": 0.9864864864864865
+    }
+  ],
+  "calls": 220,
+  "typed_answers": 285,
+  "estimated_inference_usd": 0.007011690000000001,
+  "reserved_usd": 0.05995164000000003,
+  "all_tasks_collected": true,
+  "no_real_external_actions": true,
+  "coordinator_cost_usd": null,
+  "interpretation": "One model, small synthetic samples. Guided success is a combined deterministic-controller/Jev result, not Jev-only planning. The deterministic reference already identifies every fresh follow-up case. Reported confidence is not independently calibrated."
+}

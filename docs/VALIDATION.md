@@ -11,3 +11,7 @@ Verified locally with Python 3.14 and the dependency versions pinned in `pyproje
 No paid Jev evaluation was run during packaging. Historical benchmark summaries are explicitly historical. API examples remain opt-in and use the reader's own credentials.
 
 The source research's failed reviewer closeouts and experimental limitations are not turned into a clean production certification here. This repo is an experiment lab, not a production routing or psychological-assessment product.
+
+## Advanced extension
+
+The test suite now contains twelve tests. The sixth notebook was executed offline with networking blocked, its outputs saved and its HTML export generated. Advanced grading verified all 220 paid responses against retained payload/response hashes and checked that hidden worlds/gold labels were not included in API state. This does not establish production readiness or general reasoning/calibration guarantees.

@@ -2,6 +2,8 @@
 
 A clean, portable version of the Jev notebook: typed decisions, model-lane hypotheses, reasoning-lens selection, structural variants, numeric recurrence findings, and a terse tool-grounded adversarial peer.
 
+**Latest executed experiments:** [06 — active investigation, belief revision, batch interference and adversarial evidence](notebooks/06_advanced_experiments.ipynb). **Saved outputs are included.** [Rendered view](https://nbviewer.org/github/arthurcolle/jev-reasoning-lab/blob/main/notebooks/06_advanced_experiments.ipynb) · [Methodology](docs/ADVANCED_EXPERIMENTS.md)
+
 **Original notebook, with all saved cells and results:** [jev_api_test.ipynb](jev_api_test.ipynb)
 **Output-focused HTML:** [saved_outputs.html](saved_outputs.html)
 
@@ -22,7 +24,7 @@ python -m pip install -e '.[notebooks]'
 jupyter lab
 ```
 
-The five portable notebooks under `notebooks/` run **offline by default**. The root historical notebook preserves its original live cells; see its opening warning. To deliberately run paid TypeSafe examples, export your own key and opt in **before launching Jupyter**:
+The portable notebooks under `notebooks/` run **offline by default**. The root historical notebook preserves its original live cells; see its opening warning. To deliberately run paid TypeSafe examples, export your own key and opt in **before launching Jupyter**:
 
 ```sh
 export TYPESAFE_API_KEY='YOUR_OWN_KEY'
@@ -38,7 +40,8 @@ Do not commit your key, `.env`, private inputs or run logs. Copying `.env.exampl
 2. **Routing and lenses:** cheap/strong recommendations and the portable 18-lens client. The routing example does not execute the selected language model; relative costs are illustrative.
 3. **Decision surface:** receipts, retrieval/consistency examples and A/B variants. Fleet profiles are fictional; there is no SSH or fleet dispatch.
 4. **Results and peer:** historical empirical results and an offline exact-tool peer demo. No paid inference is needed.
-5. **Numeric frontier:** an explicit-opt-in, call-bounded portable recurrence/branching demo; historical runs are not replayed automatically.
+5. **Numeric frontier:** explicit-opt-in bounded live branching, with historical output replay when offline.
+6. **Advanced experiments:** recorded active investigation, 18-turn belief revision, paired batching/order tests, injection controls and confidence coverage/risk. The optional paid rerun is disabled by default.
 
 ## What the evidence says
 
