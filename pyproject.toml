@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-reasoning-lab"
+version = "0.1.0"
+description = "Portable Jev notebooks, routing experiments, and a bounded adversarial peer"
+requires-python = ">=3.14"
+license-files = ["LICENSE_SCOPE.md", "licenses/*.txt"]
+dependencies = ["jev==0.3.0", "typesafe-sdk==0.7.1", "httpx==0.28.1", "pydantic==2.13.5"]
+
+[project.optional-dependencies]
+notebooks = ["jupyterlab==4.6.4", "nbformat==5.11.1", "nbclient>=0.10,<0.11"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

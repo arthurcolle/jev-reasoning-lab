@@ -1,0 +1,157 @@
+{
+  "modality": {
+    "baseline": {
+      "n": 1600,
+      "correct": 1472,
+      "accuracy": 0.92
+    },
+    "joint": {
+      "n": 1600,
+      "correct": 1468,
+      "accuracy": 0.9175
+    },
+    "single": {
+      "n": 1600,
+      "correct": 1472,
+      "accuracy": 0.92
+    }
+  },
+  "debias": {
+    "cued": {
+      "n": 3000,
+      "correct": 2742,
+      "accuracy": 0.914
+    },
+    "intervention": {
+      "n": 3000,
+      "correct": 2741,
+      "accuracy": 0.9136666666666666
+    },
+    "neutral": {
+      "n": 3000,
+      "correct": 2769,
+      "accuracy": 0.923
+    }
+  },
+  "combined": {
+    "cued": {
+      "n": 192,
+      "correct": 180,
+      "accuracy": 0.9375
+    },
+    "overlay": {
+      "n": 192,
+      "correct": 178,
+      "accuracy": 0.9270833333333334
+    }
+  },
+  "modality_pairs": {
+    "single": {
+      "pairs": 1600,
+      "repairs": 25,
+      "harms": 25,
+      "both_correct": 1447,
+      "both_wrong": 103,
+      "net_correct_change": 0,
+      "net_accuracy_change": 0.0
+    },
+    "joint": {
+      "pairs": 1600,
+      "repairs": 22,
+      "harms": 26,
+      "both_correct": 1446,
+      "both_wrong": 106,
+      "net_correct_change": -4,
+      "net_accuracy_change": -0.0025
+    }
+  },
+  "debias_pairs": {
+    "neutral": {
+      "pairs": 3000,
+      "repairs": 87,
+      "harms": 60,
+      "both_correct": 2682,
+      "both_wrong": 171,
+      "net_correct_change": 27,
+      "net_accuracy_change": 0.009
+    },
+    "intervention": {
+      "pairs": 3000,
+      "repairs": 78,
+      "harms": 79,
+      "both_correct": 2663,
+      "both_wrong": 180,
+      "net_correct_change": -1,
+      "net_accuracy_change": -0.0003333333333333333
+    }
+  },
+  "combined_pairs": {
+    "pairs": 192,
+    "repairs": 3,
+    "harms": 5,
+    "both_correct": 175,
+    "both_wrong": 9,
+    "net_correct_change": -2,
+    "net_accuracy_change": -0.010416666666666666
+  },
+  "hard": {
+    "baseline": {
+      "n": 128,
+      "correct": 56,
+      "accuracy": 0.4375
+    },
+    "prompt_overlay": {
+      "n": 128,
+      "correct": 59,
+      "accuracy": 0.4609375
+    },
+    "tool_hint": {
+      "n": 128,
+      "correct": 98,
+      "accuracy": 0.765625
+    }
+  },
+  "hard_pairs": {
+    "prompt_overlay": {
+      "pairs": 128,
+      "repairs": 4,
+      "harms": 1,
+      "both_correct": 55,
+      "both_wrong": 68,
+      "net_correct_change": 3,
+      "net_accuracy_change": 0.0234375
+    },
+    "tool_hint": {
+      "pairs": 128,
+      "repairs": 44,
+      "harms": 2,
+      "both_correct": 54,
+      "both_wrong": 28,
+      "net_correct_change": 42,
+      "net_accuracy_change": 0.328125
+    }
+  },
+  "exact_peer": {
+    "correct": 128,
+    "n": 128,
+    "accuracy": 1.0,
+    "controls": 4,
+    "scope": "Only eight declared atom schemas; separate bounded reference algorithms checked gold. This is not 100% general reasoning accuracy."
+  },
+  "strategy_net_buckets": {
+    "improved": 59,
+    "no_net_change": 630,
+    "harmed": 61
+  },
+  "distinct_prompt_free_problems": 1206,
+  "limitations": [
+    "Synthetic fixed-label entailment tasks, not validated human psychological instruments.",
+    "800 operator names are prompts, not 800 independently implemented reasoning algorithms.",
+    "750 interventions reuse three generic tactics plus 30 calibration variants; coverage is 240 source targets, not proof of debiasing each construct.",
+    "Two instances per operator/four per strategy are insufficient for reliable individual ranking.",
+    "Only one model version, one pass; temporal/batch effects and related templates limit causal/general claims.",
+    "Prompt baseline already instructs evidence entailment and marks commentary nonbinding; not a completely unguided model control.",
+    "Exact peer requires correctly supplied supported atom schemas. It does not verify free-text atomization or truth of referenced sources.",
+    "Memory telemetry is Python notebook high-water RSS, not DSCO native harness usage."
+  ]
+}

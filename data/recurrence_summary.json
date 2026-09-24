@@ -1,0 +1,32 @@
+{
+  "jev_calls": 642,
+  "jev_successes": 642,
+  "initial_mean_pairwise_L1": 0.3436111111111111,
+  "final_mean_pairwise_L1": 0.0162037037037037,
+  "separation_reduction_fraction": 0.9528428994880086,
+  "chains": {
+    "sunk_cost": {
+      "depth": 96,
+      "stop": "depth_cap"
+    },
+    "decision": {
+      "depth": 96,
+      "stop": "depth_cap"
+    },
+    "factual": {
+      "depth": 96,
+      "stop": "depth_cap"
+    },
+    "forecast": {
+      "depth": 96,
+      "stop": "depth_cap"
+    }
+  },
+  "tree_nodes": 160,
+  "tree_depth": 21,
+  "tree_stop": "node_cap",
+  "backward_replays": 18,
+  "accepted_replays": 7,
+  "backtrack_restores": 11,
+  "known_limit_correction": "Initial tree summary says empty_frontier, but durable results show the first-pass reservation limit stopped it after five nodes. Treat as budget-truncated. Swarm bounded_frontier_drained includes host call-cap exhaustion; not natural collapse."
+}

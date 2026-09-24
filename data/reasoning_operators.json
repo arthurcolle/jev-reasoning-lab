@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "OP-001",
+    "family": "Traversal",
+    "operator": "advance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-002",
+    "family": "Traversal",
+    "operator": "descend",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-003",
+    "family": "Traversal",
+    "operator": "ascend",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-004",
+    "family": "Traversal",
+    "operator": "traverse",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-005",
+    "family": "Traversal",
+    "operator": "visit",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-006",
+    "family": "Traversal",
+    "operator": "revisit",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-007",
+    "family": "Traversal",
+    "operator": "scan",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-008",
+    "family": "Traversal",
+    "operator": "sweep",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-009",
+    "family": "Traversal",
+    "operator": "follow",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-010",
+    "family": "Traversal",
+    "operator": "trace",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-011",
+    "family": "Traversal",
+    "operator": "navigate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-012",
+    "family": "Traversal",
+    "operator": "step",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-013",
+    "family": "Traversal",
+    "operator": "hop",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-014",
+    "family": "Traversal",
+    "operator": "enter",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-015",
+    "family": "Traversal",
+    "operator": "exit",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-016",
+    "family": "Traversal",
+    "operator": "resume",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-017",
+    "family": "Traversal",
+    "operator": "return",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-018",
+    "family": "Traversal",
+    "operator": "detour",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-019",
+    "family": "Traversal",
+    "operator": "orbit",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-020",
+    "family": "Traversal",
+    "operator": "cross",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-021",
+    "family": "Traversal",
+    "operator": "walk",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-022",
+    "family": "Traversal",
+    "operator": "explore neighbors",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-023",
+    "family": "Traversal",
+    "operator": "follow edges",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-024",
+    "family": "Traversal",
+    "operator": "traverse breadth-first",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-025",
+    "family": "Traversal",
+    "operator": "traverse depth-first",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-026",
+    "family": "Forward chaining",
+    "operator": "forward-chain",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-027",
+    "family": "Forward chaining",
+    "operator": "propagate facts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-028",
+    "family": "Forward chaining",
+    "operator": "fire rules",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-029",
+    "family": "Forward chaining",
+    "operator": "derive consequences",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-030",
+    "family": "Forward chaining",
+    "operator": "extend premises",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-031",
+    "family": "Forward chaining",
+    "operator": "instantiate rules",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-032",
+    "family": "Forward chaining",
+    "operator": "materialize implications",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-033",
+    "family": "Forward chaining",
+    "operator": "expand entailments",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-034",
+    "family": "Forward chaining",
+    "operator": "advance inference",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-035",
+    "family": "Forward chaining",
+    "operator": "accumulate conclusions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-036",
+    "family": "Forward chaining",
+    "operator": "saturate rules",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-037",
+    "family": "Forward chaining",
+    "operator": "propagate constraints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-038",
+    "family": "Forward chaining",
+    "operator": "update successors",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-039",
+    "family": "Forward chaining",
+    "operator": "unfold transitions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-040",
+    "family": "Forward chaining",
+    "operator": "simulate next steps",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-041",
+    "family": "Forward chaining",
+    "operator": "predict consequences",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-042",
+    "family": "Forward chaining",
+    "operator": "propagate evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-043",
+    "family": "Forward chaining",
+    "operator": "activate successors",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-044",
+    "family": "Forward chaining",
+    "operator": "compose implications",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-045",
+    "family": "Forward chaining",
+    "operator": "close forward",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-046",
+    "family": "Forward chaining",
+    "operator": "discharge triggers",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-047",
+    "family": "Forward chaining",
+    "operator": "fan out consequences",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-048",
+    "family": "Forward chaining",
+    "operator": "infer downstream",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-049",
+    "family": "Forward chaining",
+    "operator": "propagate intervals",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-050",
+    "family": "Forward chaining",
+    "operator": "propagate uncertainty",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-051",
+    "family": "Backward chaining",
+    "operator": "backward-chain",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-052",
+    "family": "Backward chaining",
+    "operator": "regress goals",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-053",
+    "family": "Backward chaining",
+    "operator": "seek premises",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-054",
+    "family": "Backward chaining",
+    "operator": "invert implications",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-055",
+    "family": "Backward chaining",
+    "operator": "decompose goals",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-056",
+    "family": "Backward chaining",
+    "operator": "infer prerequisites",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-057",
+    "family": "Backward chaining",
+    "operator": "reconstruct causes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-058",
+    "family": "Backward chaining",
+    "operator": "trace dependencies backward",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-059",
+    "family": "Backward chaining",
+    "operator": "seek witnesses",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-060",
+    "family": "Backward chaining",
+    "operator": "regress plans",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-061",
+    "family": "Backward chaining",
+    "operator": "derive weakest preconditions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-062",
+    "family": "Backward chaining",
+    "operator": "explain observations backward",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-063",
+    "family": "Backward chaining",
+    "operator": "reconstruct provenance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-064",
+    "family": "Backward chaining",
+    "operator": "infer latent parents",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-065",
+    "family": "Backward chaining",
+    "operator": "recover antecedents",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-066",
+    "family": "Backward chaining",
+    "operator": "trace obligations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-067",
+    "family": "Backward chaining",
+    "operator": "reverse transitions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-068",
+    "family": "Backward chaining",
+    "operator": "synthesize predecessors",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-069",
+    "family": "Backward chaining",
+    "operator": "inspect necessary conditions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-070",
+    "family": "Backward chaining",
+    "operator": "regress constraints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-071",
+    "family": "Backward chaining",
+    "operator": "backward-slice",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-072",
+    "family": "Backward chaining",
+    "operator": "derive subgoals",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-073",
+    "family": "Backward chaining",
+    "operator": "reconstruct decision paths",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-074",
+    "family": "Backward chaining",
+    "operator": "propagate requirements backward",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-075",
+    "family": "Backward chaining",
+    "operator": "seek supporting evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-076",
+    "family": "Search control",
+    "operator": "branch",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-077",
+    "family": "Search control",
+    "operator": "fork",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-078",
+    "family": "Search control",
+    "operator": "backtrack",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-079",
+    "family": "Search control",
+    "operator": "prune",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-080",
+    "family": "Search control",
+    "operator": "bound",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-081",
+    "family": "Search control",
+    "operator": "beam-search",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-082",
+    "family": "Search control",
+    "operator": "best-first-search",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-083",
+    "family": "Search control",
+    "operator": "widen",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-084",
+    "family": "Search control",
+    "operator": "deepen",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-085",
+    "family": "Search control",
+    "operator": "restart search",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-086",
+    "family": "Search control",
+    "operator": "checkpoint search",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-087",
+    "family": "Search control",
+    "operator": "restore frontier",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-088",
+    "family": "Search control",
+    "operator": "merge frontiers",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-089",
+    "family": "Search control",
+    "operator": "deduplicate states",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-090",
+    "family": "Search control",
+    "operator": "expand frontier",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-091",
+    "family": "Search control",
+    "operator": "rank branches",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-092",
+    "family": "Search control",
+    "operator": "suspend branches",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-093",
+    "family": "Search control",
+    "operator": "abandon branches",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-094",
+    "family": "Search control",
+    "operator": "revisit alternatives",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-095",
+    "family": "Search control",
+    "operator": "diversify search",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-096",
+    "family": "Search control",
+    "operator": "intensify search",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-097",
+    "family": "Search control",
+    "operator": "anneal",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-098",
+    "family": "Search control",
+    "operator": "escape local optima",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-099",
+    "family": "Search control",
+    "operator": "limit depth",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-100",
+    "family": "Search control",
+    "operator": "terminate search",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-101",
+    "family": "Verification",
+    "operator": "verify",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-102",
+    "family": "Verification",
+    "operator": "validate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-103",
+    "family": "Verification",
+    "operator": "check",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-104",
+    "family": "Verification",
+    "operator": "corroborate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-105",
+    "family": "Verification",
+    "operator": "cross-check",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-106",
+    "family": "Verification",
+    "operator": "reproduce",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-107",
+    "family": "Verification",
+    "operator": "replicate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-108",
+    "family": "Verification",
+    "operator": "replay",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-109",
+    "family": "Verification",
+    "operator": "recompute",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-110",
+    "family": "Verification",
+    "operator": "reconcile",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-111",
+    "family": "Verification",
+    "operator": "audit",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-112",
+    "family": "Verification",
+    "operator": "inspect invariants",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-113",
+    "family": "Verification",
+    "operator": "test postconditions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-114",
+    "family": "Verification",
+    "operator": "test preconditions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-115",
+    "family": "Verification",
+    "operator": "verify witnesses",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-116",
+    "family": "Verification",
+    "operator": "verify certificates",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-117",
+    "family": "Verification",
+    "operator": "compare references",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-118",
+    "family": "Verification",
+    "operator": "confirm provenance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-119",
+    "family": "Verification",
+    "operator": "check completeness",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-120",
+    "family": "Verification",
+    "operator": "check soundness",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-121",
+    "family": "Verification",
+    "operator": "verify reversibility",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-122",
+    "family": "Verification",
+    "operator": "verify installation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-123",
+    "family": "Verification",
+    "operator": "verify runtime identity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-124",
+    "family": "Verification",
+    "operator": "detect discrepancies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-125",
+    "family": "Verification",
+    "operator": "verify negative controls",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-126",
+    "family": "Falsification",
+    "operator": "falsify",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-127",
+    "family": "Falsification",
+    "operator": "refute",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-128",
+    "family": "Falsification",
+    "operator": "disprove",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-129",
+    "family": "Falsification",
+    "operator": "challenge",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-130",
+    "family": "Falsification",
+    "operator": "contradict",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-131",
+    "family": "Falsification",
+    "operator": "counterexample",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-132",
+    "family": "Falsification",
+    "operator": "perturb",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-133",
+    "family": "Falsification",
+    "operator": "stress-test",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-134",
+    "family": "Falsification",
+    "operator": "fault-inject",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-135",
+    "family": "Falsification",
+    "operator": "mutation-test",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-136",
+    "family": "Falsification",
+    "operator": "adversarially probe",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-137",
+    "family": "Falsification",
+    "operator": "negate assumptions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-138",
+    "family": "Falsification",
+    "operator": "invert hypotheses",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-139",
+    "family": "Falsification",
+    "operator": "expose inconsistency",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-140",
+    "family": "Falsification",
+    "operator": "break symmetry assumptions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-141",
+    "family": "Falsification",
+    "operator": "attack boundary cases",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-142",
+    "family": "Falsification",
+    "operator": "test null hypotheses",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-143",
+    "family": "Falsification",
+    "operator": "seek disconfirming evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-144",
+    "family": "Falsification",
+    "operator": "construct rival explanations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-145",
+    "family": "Falsification",
+    "operator": "challenge necessity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-146",
+    "family": "Falsification",
+    "operator": "challenge sufficiency",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-147",
+    "family": "Falsification",
+    "operator": "minimize counterexamples",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-148",
+    "family": "Falsification",
+    "operator": "reject unsupported claims",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-149",
+    "family": "Falsification",
+    "operator": "distinguish confounding",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-150",
+    "family": "Falsification",
+    "operator": "test failure recovery",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-151",
+    "family": "Decomposition",
+    "operator": "decompose",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-152",
+    "family": "Decomposition",
+    "operator": "partition",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-153",
+    "family": "Decomposition",
+    "operator": "split",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-154",
+    "family": "Decomposition",
+    "operator": "factor",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-155",
+    "family": "Decomposition",
+    "operator": "segment",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-156",
+    "family": "Decomposition",
+    "operator": "isolate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-157",
+    "family": "Decomposition",
+    "operator": "separate concerns",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-158",
+    "family": "Decomposition",
+    "operator": "extract subproblems",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-159",
+    "family": "Decomposition",
+    "operator": "identify components",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-160",
+    "family": "Decomposition",
+    "operator": "identify interfaces",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-161",
+    "family": "Decomposition",
+    "operator": "unpack premises",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-162",
+    "family": "Decomposition",
+    "operator": "divide cases",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-163",
+    "family": "Decomposition",
+    "operator": "distinguish mechanisms",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-164",
+    "family": "Decomposition",
+    "operator": "localize faults",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-165",
+    "family": "Decomposition",
+    "operator": "separate observation from inference",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-166",
+    "family": "Decomposition",
+    "operator": "separate signal from noise",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-167",
+    "family": "Decomposition",
+    "operator": "separate policy from mechanism",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-168",
+    "family": "Decomposition",
+    "operator": "break cycles",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-169",
+    "family": "Decomposition",
+    "operator": "identify bottlenecks",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-170",
+    "family": "Decomposition",
+    "operator": "expose hidden dependencies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-171",
+    "family": "Decomposition",
+    "operator": "distinguish objectives",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-172",
+    "family": "Decomposition",
+    "operator": "separate timescales",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-173",
+    "family": "Decomposition",
+    "operator": "atomize claims",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-174",
+    "family": "Decomposition",
+    "operator": "separate evidence channels",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-175",
+    "family": "Decomposition",
+    "operator": "decompose uncertainty",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-176",
+    "family": "Abstraction",
+    "operator": "abstract",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-177",
+    "family": "Abstraction",
+    "operator": "generalize representations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-178",
+    "family": "Abstraction",
+    "operator": "lift",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-179",
+    "family": "Abstraction",
+    "operator": "quotient",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-180",
+    "family": "Abstraction",
+    "operator": "canonicalize",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-181",
+    "family": "Abstraction",
+    "operator": "normalize representations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-182",
+    "family": "Abstraction",
+    "operator": "compress structure",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-183",
+    "family": "Abstraction",
+    "operator": "identify invariants",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-184",
+    "family": "Abstraction",
+    "operator": "extract patterns",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-185",
+    "family": "Abstraction",
+    "operator": "remove incidental detail",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-186",
+    "family": "Abstraction",
+    "operator": "define equivalence classes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-187",
+    "family": "Abstraction",
+    "operator": "abstract interfaces",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-188",
+    "family": "Abstraction",
+    "operator": "derive schemas",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-189",
+    "family": "Abstraction",
+    "operator": "construct sufficient statistics",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-190",
+    "family": "Abstraction",
+    "operator": "identify symmetries",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-191",
+    "family": "Abstraction",
+    "operator": "change representation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-192",
+    "family": "Abstraction",
+    "operator": "project dimensions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-193",
+    "family": "Abstraction",
+    "operator": "factor shared structure",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-194",
+    "family": "Abstraction",
+    "operator": "identify latent variables",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-195",
+    "family": "Abstraction",
+    "operator": "abstract control flow",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-196",
+    "family": "Abstraction",
+    "operator": "abstract data flow",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-197",
+    "family": "Abstraction",
+    "operator": "derive reusable primitives",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-198",
+    "family": "Abstraction",
+    "operator": "represent relations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-199",
+    "family": "Abstraction",
+    "operator": "construct state spaces",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-200",
+    "family": "Abstraction",
+    "operator": "define semantic types",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-201",
+    "family": "Synthesis",
+    "operator": "synthesize",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-202",
+    "family": "Synthesis",
+    "operator": "integrate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-203",
+    "family": "Synthesis",
+    "operator": "combine",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-204",
+    "family": "Synthesis",
+    "operator": "compose",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-205",
+    "family": "Synthesis",
+    "operator": "fuse",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-206",
+    "family": "Synthesis",
+    "operator": "assemble",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-207",
+    "family": "Synthesis",
+    "operator": "connect findings",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-208",
+    "family": "Synthesis",
+    "operator": "reconcile viewpoints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-209",
+    "family": "Synthesis",
+    "operator": "unify models",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-210",
+    "family": "Synthesis",
+    "operator": "bridge representations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-211",
+    "family": "Synthesis",
+    "operator": "derive joint conclusions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-212",
+    "family": "Synthesis",
+    "operator": "aggregate evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-213",
+    "family": "Synthesis",
+    "operator": "construct explanations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-214",
+    "family": "Synthesis",
+    "operator": "formulate alternatives",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-215",
+    "family": "Synthesis",
+    "operator": "combine constraints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-216",
+    "family": "Synthesis",
+    "operator": "synthesize policies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-217",
+    "family": "Synthesis",
+    "operator": "compose proofs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-218",
+    "family": "Synthesis",
+    "operator": "synthesize plans",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-219",
+    "family": "Synthesis",
+    "operator": "combine partial solutions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-220",
+    "family": "Synthesis",
+    "operator": "integrate counterevidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-221",
+    "family": "Synthesis",
+    "operator": "resolve model disagreement",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-222",
+    "family": "Synthesis",
+    "operator": "construct consensus candidates",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-223",
+    "family": "Synthesis",
+    "operator": "merge compatible hypotheses",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-224",
+    "family": "Synthesis",
+    "operator": "synthesize decision criteria",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-225",
+    "family": "Synthesis",
+    "operator": "generate actionable summaries",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-226",
+    "family": "Deduction",
+    "operator": "deduce",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-227",
+    "family": "Deduction",
+    "operator": "entail",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-228",
+    "family": "Deduction",
+    "operator": "infer by modus ponens",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-229",
+    "family": "Deduction",
+    "operator": "infer by modus tollens",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-230",
+    "family": "Deduction",
+    "operator": "apply contraposition",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-231",
+    "family": "Deduction",
+    "operator": "instantiate universals",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-232",
+    "family": "Deduction",
+    "operator": "introduce conjunctions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-233",
+    "family": "Deduction",
+    "operator": "eliminate conjunctions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-234",
+    "family": "Deduction",
+    "operator": "introduce disjunctions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-235",
+    "family": "Deduction",
+    "operator": "eliminate disjunctions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-236",
+    "family": "Deduction",
+    "operator": "reason by cases",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-237",
+    "family": "Deduction",
+    "operator": "introduce implications",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-238",
+    "family": "Deduction",
+    "operator": "discharge assumptions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-239",
+    "family": "Deduction",
+    "operator": "prove by contradiction",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-240",
+    "family": "Deduction",
+    "operator": "prove by construction",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-241",
+    "family": "Deduction",
+    "operator": "substitute equals",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-242",
+    "family": "Deduction",
+    "operator": "apply transitivity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-243",
+    "family": "Deduction",
+    "operator": "apply reflexivity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-244",
+    "family": "Deduction",
+    "operator": "derive contrapositive",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-245",
+    "family": "Deduction",
+    "operator": "eliminate double negation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-246",
+    "family": "Deduction",
+    "operator": "derive corollaries",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-247",
+    "family": "Deduction",
+    "operator": "close logical consequences",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-248",
+    "family": "Deduction",
+    "operator": "establish necessity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-249",
+    "family": "Deduction",
+    "operator": "establish sufficiency",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-250",
+    "family": "Deduction",
+    "operator": "distinguish validity from truth",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-251",
+    "family": "Induction",
+    "operator": "induce",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-252",
+    "family": "Induction",
+    "operator": "infer regularities",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-253",
+    "family": "Induction",
+    "operator": "extrapolate patterns",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-254",
+    "family": "Induction",
+    "operator": "generalize samples",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-255",
+    "family": "Induction",
+    "operator": "estimate prevalence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-256",
+    "family": "Induction",
+    "operator": "identify trends",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-257",
+    "family": "Induction",
+    "operator": "fit empirical rules",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-258",
+    "family": "Induction",
+    "operator": "infer categories",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-259",
+    "family": "Induction",
+    "operator": "detect recurring mechanisms",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-260",
+    "family": "Induction",
+    "operator": "compare samples",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-261",
+    "family": "Induction",
+    "operator": "evaluate representativeness",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-262",
+    "family": "Induction",
+    "operator": "assess sampling bias",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-263",
+    "family": "Induction",
+    "operator": "test generalization",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-264",
+    "family": "Induction",
+    "operator": "infer scaling laws",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-265",
+    "family": "Induction",
+    "operator": "update empirical hypotheses",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-266",
+    "family": "Induction",
+    "operator": "stratify observations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-267",
+    "family": "Induction",
+    "operator": "distinguish exceptions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-268",
+    "family": "Induction",
+    "operator": "seek boundary instances",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-269",
+    "family": "Induction",
+    "operator": "validate out of sample",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-270",
+    "family": "Induction",
+    "operator": "cross-validate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-271",
+    "family": "Induction",
+    "operator": "bootstrap estimates",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-272",
+    "family": "Induction",
+    "operator": "estimate sampling error",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-273",
+    "family": "Induction",
+    "operator": "compare cohorts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-274",
+    "family": "Induction",
+    "operator": "infer population properties",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-275",
+    "family": "Induction",
+    "operator": "bound extrapolation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-276",
+    "family": "Abduction",
+    "operator": "abduce",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-277",
+    "family": "Abduction",
+    "operator": "hypothesize",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-278",
+    "family": "Abduction",
+    "operator": "explain anomalies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-279",
+    "family": "Abduction",
+    "operator": "infer best explanations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-280",
+    "family": "Abduction",
+    "operator": "rank explanations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-281",
+    "family": "Abduction",
+    "operator": "generate causal candidates",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-282",
+    "family": "Abduction",
+    "operator": "compare explanatory coverage",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-283",
+    "family": "Abduction",
+    "operator": "assess explanatory simplicity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-284",
+    "family": "Abduction",
+    "operator": "derive discriminating tests",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-285",
+    "family": "Abduction",
+    "operator": "explain missing evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-286",
+    "family": "Abduction",
+    "operator": "explain unexpected evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-287",
+    "family": "Abduction",
+    "operator": "infer hidden mechanisms",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-288",
+    "family": "Abduction",
+    "operator": "identify explanatory gaps",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-289",
+    "family": "Abduction",
+    "operator": "compare rival models",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-290",
+    "family": "Abduction",
+    "operator": "diagnose plausible causes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-291",
+    "family": "Abduction",
+    "operator": "infer latent states",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-292",
+    "family": "Abduction",
+    "operator": "revise explanatory hypotheses",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-293",
+    "family": "Abduction",
+    "operator": "estimate explanatory cost",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-294",
+    "family": "Abduction",
+    "operator": "prefer testable explanations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-295",
+    "family": "Abduction",
+    "operator": "separate explanation from proof",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-296",
+    "family": "Abduction",
+    "operator": "account for exceptions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-297",
+    "family": "Abduction",
+    "operator": "discover missing premises",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-298",
+    "family": "Abduction",
+    "operator": "construct minimal explanations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-299",
+    "family": "Abduction",
+    "operator": "reject ad hoc explanations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-300",
+    "family": "Abduction",
+    "operator": "update explanation rankings",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-301",
+    "family": "Causal reasoning",
+    "operator": "causally model",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-302",
+    "family": "Causal reasoning",
+    "operator": "intervene",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-303",
+    "family": "Causal reasoning",
+    "operator": "identify confounders",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-304",
+    "family": "Causal reasoning",
+    "operator": "identify mediators",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-305",
+    "family": "Causal reasoning",
+    "operator": "identify moderators",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-306",
+    "family": "Causal reasoning",
+    "operator": "distinguish correlation from causation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-307",
+    "family": "Causal reasoning",
+    "operator": "estimate treatment effects",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-308",
+    "family": "Causal reasoning",
+    "operator": "identify causal pathways",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-309",
+    "family": "Causal reasoning",
+    "operator": "block backdoor paths",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-310",
+    "family": "Causal reasoning",
+    "operator": "inspect collider bias",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-311",
+    "family": "Causal reasoning",
+    "operator": "test causal direction",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-312",
+    "family": "Causal reasoning",
+    "operator": "distinguish direct effects",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-313",
+    "family": "Causal reasoning",
+    "operator": "distinguish indirect effects",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-314",
+    "family": "Causal reasoning",
+    "operator": "model feedback",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-315",
+    "family": "Causal reasoning",
+    "operator": "evaluate instrumental variables",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-316",
+    "family": "Causal reasoning",
+    "operator": "assess causal identifiability",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-317",
+    "family": "Causal reasoning",
+    "operator": "compare interventions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-318",
+    "family": "Causal reasoning",
+    "operator": "reason about mechanisms",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-319",
+    "family": "Causal reasoning",
+    "operator": "isolate root causes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-320",
+    "family": "Causal reasoning",
+    "operator": "estimate heterogeneous effects",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-321",
+    "family": "Causal reasoning",
+    "operator": "inspect selection effects",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-322",
+    "family": "Causal reasoning",
+    "operator": "assess transportability",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-323",
+    "family": "Causal reasoning",
+    "operator": "model interference",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-324",
+    "family": "Causal reasoning",
+    "operator": "validate natural experiments",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-325",
+    "family": "Causal reasoning",
+    "operator": "bound causal claims",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-326",
+    "family": "Counterfactual reasoning",
+    "operator": "counterfactually simulate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-327",
+    "family": "Counterfactual reasoning",
+    "operator": "vary antecedents",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-328",
+    "family": "Counterfactual reasoning",
+    "operator": "hold background fixed",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-329",
+    "family": "Counterfactual reasoning",
+    "operator": "remove interventions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-330",
+    "family": "Counterfactual reasoning",
+    "operator": "substitute interventions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-331",
+    "family": "Counterfactual reasoning",
+    "operator": "compare possible worlds",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-332",
+    "family": "Counterfactual reasoning",
+    "operator": "ask what-if",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-333",
+    "family": "Counterfactual reasoning",
+    "operator": "reverse outcomes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-334",
+    "family": "Counterfactual reasoning",
+    "operator": "test alternative histories",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-335",
+    "family": "Counterfactual reasoning",
+    "operator": "compare unrealized options",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-336",
+    "family": "Counterfactual reasoning",
+    "operator": "estimate counterfactual regret",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-337",
+    "family": "Counterfactual reasoning",
+    "operator": "identify nearest alternatives",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-338",
+    "family": "Counterfactual reasoning",
+    "operator": "distinguish possibility from actuality",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-339",
+    "family": "Counterfactual reasoning",
+    "operator": "test but-for dependence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-340",
+    "family": "Counterfactual reasoning",
+    "operator": "simulate prevented failures",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-341",
+    "family": "Counterfactual reasoning",
+    "operator": "reconstruct avoided outcomes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-342",
+    "family": "Counterfactual reasoning",
+    "operator": "evaluate policy alternatives",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-343",
+    "family": "Counterfactual reasoning",
+    "operator": "vary constraints counterfactually",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-344",
+    "family": "Counterfactual reasoning",
+    "operator": "test outcome sensitivity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-345",
+    "family": "Counterfactual reasoning",
+    "operator": "consider the opposite",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-346",
+    "family": "Counterfactual reasoning",
+    "operator": "imagine absent evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-347",
+    "family": "Counterfactual reasoning",
+    "operator": "examine necessary changes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-348",
+    "family": "Counterfactual reasoning",
+    "operator": "identify sufficient changes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-349",
+    "family": "Counterfactual reasoning",
+    "operator": "compare paths not taken",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-350",
+    "family": "Counterfactual reasoning",
+    "operator": "bound counterfactual uncertainty",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-351",
+    "family": "Probabilistic reasoning",
+    "operator": "condition",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-352",
+    "family": "Probabilistic reasoning",
+    "operator": "marginalize",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-353",
+    "family": "Probabilistic reasoning",
+    "operator": "update priors",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-354",
+    "family": "Probabilistic reasoning",
+    "operator": "compute likelihoods",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-355",
+    "family": "Probabilistic reasoning",
+    "operator": "calculate posteriors",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-356",
+    "family": "Probabilistic reasoning",
+    "operator": "apply Bayes rule",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-357",
+    "family": "Probabilistic reasoning",
+    "operator": "normalize probabilities",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-358",
+    "family": "Probabilistic reasoning",
+    "operator": "integrate distributions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-359",
+    "family": "Probabilistic reasoning",
+    "operator": "propagate distributions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-360",
+    "family": "Probabilistic reasoning",
+    "operator": "estimate expectations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-361",
+    "family": "Probabilistic reasoning",
+    "operator": "calculate variance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-362",
+    "family": "Probabilistic reasoning",
+    "operator": "estimate credible intervals",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-363",
+    "family": "Probabilistic reasoning",
+    "operator": "assess independence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-364",
+    "family": "Probabilistic reasoning",
+    "operator": "model dependence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-365",
+    "family": "Probabilistic reasoning",
+    "operator": "compute joint probabilities",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-366",
+    "family": "Probabilistic reasoning",
+    "operator": "calculate conditional probabilities",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-367",
+    "family": "Probabilistic reasoning",
+    "operator": "compare likelihood ratios",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-368",
+    "family": "Probabilistic reasoning",
+    "operator": "estimate entropy",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-369",
+    "family": "Probabilistic reasoning",
+    "operator": "measure information gain",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-370",
+    "family": "Probabilistic reasoning",
+    "operator": "evaluate calibration",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-371",
+    "family": "Probabilistic reasoning",
+    "operator": "score forecasts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-372",
+    "family": "Probabilistic reasoning",
+    "operator": "quantify epistemic uncertainty",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-373",
+    "family": "Probabilistic reasoning",
+    "operator": "quantify aleatoric uncertainty",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-374",
+    "family": "Probabilistic reasoning",
+    "operator": "bound tail risk",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-375",
+    "family": "Probabilistic reasoning",
+    "operator": "check probability coherence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-376",
+    "family": "Decision theory",
+    "operator": "decide",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-377",
+    "family": "Decision theory",
+    "operator": "evaluate alternatives",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-378",
+    "family": "Decision theory",
+    "operator": "compare utilities",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-379",
+    "family": "Decision theory",
+    "operator": "calculate expected utility",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-380",
+    "family": "Decision theory",
+    "operator": "compute expected value",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-381",
+    "family": "Decision theory",
+    "operator": "estimate regret",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-382",
+    "family": "Decision theory",
+    "operator": "minimize worst-case loss",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-383",
+    "family": "Decision theory",
+    "operator": "maximize minimum payoff",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-384",
+    "family": "Decision theory",
+    "operator": "identify dominated options",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-385",
+    "family": "Decision theory",
+    "operator": "construct Pareto frontiers",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-386",
+    "family": "Decision theory",
+    "operator": "value information",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-387",
+    "family": "Decision theory",
+    "operator": "value options",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-388",
+    "family": "Decision theory",
+    "operator": "compare opportunity costs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-389",
+    "family": "Decision theory",
+    "operator": "weigh tradeoffs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-390",
+    "family": "Decision theory",
+    "operator": "define decision thresholds",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-391",
+    "family": "Decision theory",
+    "operator": "evaluate reversibility",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-392",
+    "family": "Decision theory",
+    "operator": "choose satisficing thresholds",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-393",
+    "family": "Decision theory",
+    "operator": "separate preferences from beliefs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-394",
+    "family": "Decision theory",
+    "operator": "assess loss asymmetry",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-395",
+    "family": "Decision theory",
+    "operator": "evaluate risk tolerance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-396",
+    "family": "Decision theory",
+    "operator": "compare stopping rules",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-397",
+    "family": "Decision theory",
+    "operator": "allocate decision budgets",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-398",
+    "family": "Decision theory",
+    "operator": "rank contingent actions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-399",
+    "family": "Decision theory",
+    "operator": "evaluate robust choices",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-400",
+    "family": "Decision theory",
+    "operator": "defer irreversible choices",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-401",
+    "family": "Temporal reasoning",
+    "operator": "sequence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-402",
+    "family": "Temporal reasoning",
+    "operator": "order events",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-403",
+    "family": "Temporal reasoning",
+    "operator": "reconstruct timelines",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-404",
+    "family": "Temporal reasoning",
+    "operator": "forecast",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-405",
+    "family": "Temporal reasoning",
+    "operator": "nowcast",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-406",
+    "family": "Temporal reasoning",
+    "operator": "backcast",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-407",
+    "family": "Temporal reasoning",
+    "operator": "align clocks",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-408",
+    "family": "Temporal reasoning",
+    "operator": "distinguish event time",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-409",
+    "family": "Temporal reasoning",
+    "operator": "distinguish processing time",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-410",
+    "family": "Temporal reasoning",
+    "operator": "detect temporal leakage",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-411",
+    "family": "Temporal reasoning",
+    "operator": "model delays",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-412",
+    "family": "Temporal reasoning",
+    "operator": "infer temporal precedence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-413",
+    "family": "Temporal reasoning",
+    "operator": "assess path dependence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-414",
+    "family": "Temporal reasoning",
+    "operator": "compare horizons",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-415",
+    "family": "Temporal reasoning",
+    "operator": "estimate lead times",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-416",
+    "family": "Temporal reasoning",
+    "operator": "analyze seasonality",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-417",
+    "family": "Temporal reasoning",
+    "operator": "identify change points",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-418",
+    "family": "Temporal reasoning",
+    "operator": "test temporal consistency",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-419",
+    "family": "Temporal reasoning",
+    "operator": "extrapolate trajectories",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-420",
+    "family": "Temporal reasoning",
+    "operator": "evaluate persistence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-421",
+    "family": "Temporal reasoning",
+    "operator": "distinguish transient effects",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-422",
+    "family": "Temporal reasoning",
+    "operator": "detect hysteresis",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-423",
+    "family": "Temporal reasoning",
+    "operator": "model aging",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-424",
+    "family": "Temporal reasoning",
+    "operator": "reason about deadlines",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-425",
+    "family": "Temporal reasoning",
+    "operator": "verify temporal constraints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-426",
+    "family": "Spatial and structural reasoning",
+    "operator": "map topology",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-427",
+    "family": "Spatial and structural reasoning",
+    "operator": "locate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-428",
+    "family": "Spatial and structural reasoning",
+    "operator": "orient",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-429",
+    "family": "Spatial and structural reasoning",
+    "operator": "align geometry",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-430",
+    "family": "Spatial and structural reasoning",
+    "operator": "rotate mentally",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-431",
+    "family": "Spatial and structural reasoning",
+    "operator": "reflect geometry",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-432",
+    "family": "Spatial and structural reasoning",
+    "operator": "translate coordinates",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-433",
+    "family": "Spatial and structural reasoning",
+    "operator": "scale geometry",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-434",
+    "family": "Spatial and structural reasoning",
+    "operator": "intersect regions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-435",
+    "family": "Spatial and structural reasoning",
+    "operator": "compute adjacency",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-436",
+    "family": "Spatial and structural reasoning",
+    "operator": "infer containment",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-437",
+    "family": "Spatial and structural reasoning",
+    "operator": "assess connectivity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-438",
+    "family": "Spatial and structural reasoning",
+    "operator": "trace boundaries",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-439",
+    "family": "Spatial and structural reasoning",
+    "operator": "estimate distance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-440",
+    "family": "Spatial and structural reasoning",
+    "operator": "compare shapes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-441",
+    "family": "Spatial and structural reasoning",
+    "operator": "decompose geometry",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-442",
+    "family": "Spatial and structural reasoning",
+    "operator": "identify structural motifs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-443",
+    "family": "Spatial and structural reasoning",
+    "operator": "inspect graph cuts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-444",
+    "family": "Spatial and structural reasoning",
+    "operator": "detect cycles",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-445",
+    "family": "Spatial and structural reasoning",
+    "operator": "identify articulation points",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-446",
+    "family": "Spatial and structural reasoning",
+    "operator": "assess reachability",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-447",
+    "family": "Spatial and structural reasoning",
+    "operator": "find shortest paths",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-448",
+    "family": "Spatial and structural reasoning",
+    "operator": "compare isomorphisms",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-449",
+    "family": "Spatial and structural reasoning",
+    "operator": "preserve topology",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-450",
+    "family": "Spatial and structural reasoning",
+    "operator": "reason about embeddings",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-451",
+    "family": "Analogical reasoning",
+    "operator": "analogize",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-452",
+    "family": "Analogical reasoning",
+    "operator": "map correspondences",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-453",
+    "family": "Analogical reasoning",
+    "operator": "compare structures",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-454",
+    "family": "Analogical reasoning",
+    "operator": "identify relational similarity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-455",
+    "family": "Analogical reasoning",
+    "operator": "distinguish surface similarity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-456",
+    "family": "Analogical reasoning",
+    "operator": "transfer constraints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-457",
+    "family": "Analogical reasoning",
+    "operator": "identify disanalogies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-458",
+    "family": "Analogical reasoning",
+    "operator": "construct analogues",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-459",
+    "family": "Analogical reasoning",
+    "operator": "test analogy limits",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-460",
+    "family": "Analogical reasoning",
+    "operator": "align roles",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-461",
+    "family": "Analogical reasoning",
+    "operator": "map mechanisms",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-462",
+    "family": "Analogical reasoning",
+    "operator": "transfer proof strategies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-463",
+    "family": "Analogical reasoning",
+    "operator": "compare failure patterns",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-464",
+    "family": "Analogical reasoning",
+    "operator": "identify source domains",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-465",
+    "family": "Analogical reasoning",
+    "operator": "identify target domains",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-466",
+    "family": "Analogical reasoning",
+    "operator": "evaluate transfer validity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-467",
+    "family": "Analogical reasoning",
+    "operator": "preserve relational structure",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-468",
+    "family": "Analogical reasoning",
+    "operator": "detect false analogy",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-469",
+    "family": "Analogical reasoning",
+    "operator": "derive analogy predictions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-470",
+    "family": "Analogical reasoning",
+    "operator": "test transferred predictions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-471",
+    "family": "Analogical reasoning",
+    "operator": "compare archetypes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-472",
+    "family": "Analogical reasoning",
+    "operator": "infer common abstractions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-473",
+    "family": "Analogical reasoning",
+    "operator": "transfer recovery patterns",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-474",
+    "family": "Analogical reasoning",
+    "operator": "compare historical precedents",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-475",
+    "family": "Analogical reasoning",
+    "operator": "delimit analogy scope",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-476",
+    "family": "Metacognition",
+    "operator": "reflect",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-477",
+    "family": "Metacognition",
+    "operator": "self-monitor",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-478",
+    "family": "Metacognition",
+    "operator": "inspect assumptions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-479",
+    "family": "Metacognition",
+    "operator": "inspect confidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-480",
+    "family": "Metacognition",
+    "operator": "track uncertainty",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-481",
+    "family": "Metacognition",
+    "operator": "detect overconfidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-482",
+    "family": "Metacognition",
+    "operator": "detect underconfidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-483",
+    "family": "Metacognition",
+    "operator": "recognize ignorance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-484",
+    "family": "Metacognition",
+    "operator": "identify blind spots",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-485",
+    "family": "Metacognition",
+    "operator": "detect fixation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-486",
+    "family": "Metacognition",
+    "operator": "detect motivated reasoning",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-487",
+    "family": "Metacognition",
+    "operator": "separate intuition from analysis",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-488",
+    "family": "Metacognition",
+    "operator": "audit reasoning steps",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-489",
+    "family": "Metacognition",
+    "operator": "evaluate strategy fit",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-490",
+    "family": "Metacognition",
+    "operator": "revise reasoning strategy",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-491",
+    "family": "Metacognition",
+    "operator": "inspect evidence dependence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-492",
+    "family": "Metacognition",
+    "operator": "distinguish memory from observation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-493",
+    "family": "Metacognition",
+    "operator": "notice circularity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-494",
+    "family": "Metacognition",
+    "operator": "detect premature closure",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-495",
+    "family": "Metacognition",
+    "operator": "assess cognitive load",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-496",
+    "family": "Metacognition",
+    "operator": "request clarification",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-497",
+    "family": "Metacognition",
+    "operator": "abstain",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-498",
+    "family": "Metacognition",
+    "operator": "seek independent review",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-499",
+    "family": "Metacognition",
+    "operator": "stop unproductive recursion",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-500",
+    "family": "Metacognition",
+    "operator": "recalibrate confidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-501",
+    "family": "Argumentation",
+    "operator": "argue",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-502",
+    "family": "Argumentation",
+    "operator": "justify",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-503",
+    "family": "Argumentation",
+    "operator": "defend claims",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-504",
+    "family": "Argumentation",
+    "operator": "critique claims",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-505",
+    "family": "Argumentation",
+    "operator": "steelman",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-506",
+    "family": "Argumentation",
+    "operator": "rebut",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-507",
+    "family": "Argumentation",
+    "operator": "object",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-508",
+    "family": "Argumentation",
+    "operator": "concede",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-509",
+    "family": "Argumentation",
+    "operator": "qualify",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-510",
+    "family": "Argumentation",
+    "operator": "distinguish claims",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-511",
+    "family": "Argumentation",
+    "operator": "expose equivocation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-512",
+    "family": "Argumentation",
+    "operator": "identify fallacies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-513",
+    "family": "Argumentation",
+    "operator": "reconstruct arguments",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-514",
+    "family": "Argumentation",
+    "operator": "identify warrants",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-515",
+    "family": "Argumentation",
+    "operator": "assess burden of proof",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-516",
+    "family": "Argumentation",
+    "operator": "challenge hidden premises",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-517",
+    "family": "Argumentation",
+    "operator": "compare argument strength",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-518",
+    "family": "Argumentation",
+    "operator": "separate rhetoric from evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-519",
+    "family": "Argumentation",
+    "operator": "resolve ambiguity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-520",
+    "family": "Argumentation",
+    "operator": "negotiate definitions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-521",
+    "family": "Argumentation",
+    "operator": "test consistency of positions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-522",
+    "family": "Argumentation",
+    "operator": "identify common ground",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-523",
+    "family": "Argumentation",
+    "operator": "synthesize disagreements",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-524",
+    "family": "Argumentation",
+    "operator": "document dissent",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-525",
+    "family": "Argumentation",
+    "operator": "delimit conclusions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-526",
+    "family": "Measurement and evidence",
+    "operator": "measure",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-527",
+    "family": "Measurement and evidence",
+    "operator": "observe",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-528",
+    "family": "Measurement and evidence",
+    "operator": "sample",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-529",
+    "family": "Measurement and evidence",
+    "operator": "instrument",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-530",
+    "family": "Measurement and evidence",
+    "operator": "record",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-531",
+    "family": "Measurement and evidence",
+    "operator": "label",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-532",
+    "family": "Measurement and evidence",
+    "operator": "annotate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-533",
+    "family": "Measurement and evidence",
+    "operator": "timestamp",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-534",
+    "family": "Measurement and evidence",
+    "operator": "hash artifacts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-535",
+    "family": "Measurement and evidence",
+    "operator": "trace provenance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-536",
+    "family": "Measurement and evidence",
+    "operator": "assess reliability",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-537",
+    "family": "Measurement and evidence",
+    "operator": "assess source independence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-538",
+    "family": "Measurement and evidence",
+    "operator": "triangulate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-539",
+    "family": "Measurement and evidence",
+    "operator": "distinguish primary evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-540",
+    "family": "Measurement and evidence",
+    "operator": "identify missing data",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-541",
+    "family": "Measurement and evidence",
+    "operator": "check data integrity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-542",
+    "family": "Measurement and evidence",
+    "operator": "quantify measurement error",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-543",
+    "family": "Measurement and evidence",
+    "operator": "correct measurement bias",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-544",
+    "family": "Measurement and evidence",
+    "operator": "establish baselines",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-545",
+    "family": "Measurement and evidence",
+    "operator": "freeze evaluation inputs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-546",
+    "family": "Measurement and evidence",
+    "operator": "preserve raw observations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-547",
+    "family": "Measurement and evidence",
+    "operator": "audit transformations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-548",
+    "family": "Measurement and evidence",
+    "operator": "estimate uncertainty bounds",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-549",
+    "family": "Measurement and evidence",
+    "operator": "detect evidence contamination",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-550",
+    "family": "Measurement and evidence",
+    "operator": "separate estimates from invoices",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-551",
+    "family": "Optimization",
+    "operator": "optimize",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-552",
+    "family": "Optimization",
+    "operator": "minimize",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-553",
+    "family": "Optimization",
+    "operator": "maximize",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-554",
+    "family": "Optimization",
+    "operator": "differentiate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-555",
+    "family": "Optimization",
+    "operator": "integrate objectives",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-556",
+    "family": "Optimization",
+    "operator": "solve constraints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-557",
+    "family": "Optimization",
+    "operator": "relax constraints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-558",
+    "family": "Optimization",
+    "operator": "tighten bounds",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-559",
+    "family": "Optimization",
+    "operator": "line-search",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-560",
+    "family": "Optimization",
+    "operator": "coordinate-descent",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-561",
+    "family": "Optimization",
+    "operator": "gradient-descent",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-562",
+    "family": "Optimization",
+    "operator": "branch-and-bound",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-563",
+    "family": "Optimization",
+    "operator": "optimize dynamically",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-564",
+    "family": "Optimization",
+    "operator": "optimize combinatorially",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-565",
+    "family": "Optimization",
+    "operator": "schedule resources",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-566",
+    "family": "Optimization",
+    "operator": "balance loads",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-567",
+    "family": "Optimization",
+    "operator": "allocate capacity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-568",
+    "family": "Optimization",
+    "operator": "reduce variance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-569",
+    "family": "Optimization",
+    "operator": "improve conditioning",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-570",
+    "family": "Optimization",
+    "operator": "regularize",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-571",
+    "family": "Optimization",
+    "operator": "penalize complexity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-572",
+    "family": "Optimization",
+    "operator": "trade accuracy for cost",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-573",
+    "family": "Optimization",
+    "operator": "optimize marginal value",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-574",
+    "family": "Optimization",
+    "operator": "test sensitivity to weights",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-575",
+    "family": "Optimization",
+    "operator": "verify optimality conditions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-576",
+    "family": "Planning",
+    "operator": "plan",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-577",
+    "family": "Planning",
+    "operator": "set objectives",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-578",
+    "family": "Planning",
+    "operator": "define acceptance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-579",
+    "family": "Planning",
+    "operator": "specify constraints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-580",
+    "family": "Planning",
+    "operator": "identify prerequisites",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-581",
+    "family": "Planning",
+    "operator": "build dependency graphs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-582",
+    "family": "Planning",
+    "operator": "estimate effort",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-583",
+    "family": "Planning",
+    "operator": "reserve resources",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-584",
+    "family": "Planning",
+    "operator": "sequence actions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-585",
+    "family": "Planning",
+    "operator": "schedule milestones",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-586",
+    "family": "Planning",
+    "operator": "allocate budgets",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-587",
+    "family": "Planning",
+    "operator": "plan contingencies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-588",
+    "family": "Planning",
+    "operator": "identify critical paths",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-589",
+    "family": "Planning",
+    "operator": "define rollback",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-590",
+    "family": "Planning",
+    "operator": "prepare checkpoints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-591",
+    "family": "Planning",
+    "operator": "select next actions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-592",
+    "family": "Planning",
+    "operator": "compare strategies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-593",
+    "family": "Planning",
+    "operator": "plan experiments",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-594",
+    "family": "Planning",
+    "operator": "stage rollouts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-595",
+    "family": "Planning",
+    "operator": "scope work",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-596",
+    "family": "Planning",
+    "operator": "define stop conditions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-597",
+    "family": "Planning",
+    "operator": "reassess plans",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-598",
+    "family": "Planning",
+    "operator": "prepare handoffs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-599",
+    "family": "Planning",
+    "operator": "reconcile actual progress",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-600",
+    "family": "Planning",
+    "operator": "preserve unfinished obligations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-601",
+    "family": "Swarm coordination",
+    "operator": "delegate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-602",
+    "family": "Swarm coordination",
+    "operator": "dispatch",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-603",
+    "family": "Swarm coordination",
+    "operator": "fan out",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-604",
+    "family": "Swarm coordination",
+    "operator": "fan in",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-605",
+    "family": "Swarm coordination",
+    "operator": "shard work",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-606",
+    "family": "Swarm coordination",
+    "operator": "assign roles",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-607",
+    "family": "Swarm coordination",
+    "operator": "isolate write scopes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-608",
+    "family": "Swarm coordination",
+    "operator": "coordinate rendezvous",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-609",
+    "family": "Swarm coordination",
+    "operator": "synchronize barriers",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-610",
+    "family": "Swarm coordination",
+    "operator": "collect results",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-611",
+    "family": "Swarm coordination",
+    "operator": "reconcile worker disagreement",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-612",
+    "family": "Swarm coordination",
+    "operator": "deduplicate worker effort",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-613",
+    "family": "Swarm coordination",
+    "operator": "detect stalled workers",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-614",
+    "family": "Swarm coordination",
+    "operator": "cancel obsolete work",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-615",
+    "family": "Swarm coordination",
+    "operator": "reap child processes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-616",
+    "family": "Swarm coordination",
+    "operator": "rebalance queues",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-617",
+    "family": "Swarm coordination",
+    "operator": "propagate cancellation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-618",
+    "family": "Swarm coordination",
+    "operator": "aggregate receipts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-619",
+    "family": "Swarm coordination",
+    "operator": "preserve provider pins",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-620",
+    "family": "Swarm coordination",
+    "operator": "budget worker calls",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-621",
+    "family": "Swarm coordination",
+    "operator": "arbitrate resource conflicts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-622",
+    "family": "Swarm coordination",
+    "operator": "maintain frontier ownership",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-623",
+    "family": "Swarm coordination",
+    "operator": "transfer work leases",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-624",
+    "family": "Swarm coordination",
+    "operator": "enforce bounded concurrency",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-625",
+    "family": "Swarm coordination",
+    "operator": "distinguish worker claims from evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-626",
+    "family": "Recovery and resilience",
+    "operator": "recover",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-627",
+    "family": "Recovery and resilience",
+    "operator": "retry within bounds",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-628",
+    "family": "Recovery and resilience",
+    "operator": "restore checkpoints",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-629",
+    "family": "Recovery and resilience",
+    "operator": "roll back",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-630",
+    "family": "Recovery and resilience",
+    "operator": "compensate effects",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-631",
+    "family": "Recovery and resilience",
+    "operator": "reconcile uncertain writes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-632",
+    "family": "Recovery and resilience",
+    "operator": "resume interrupted work",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-633",
+    "family": "Recovery and resilience",
+    "operator": "rehydrate state",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-634",
+    "family": "Recovery and resilience",
+    "operator": "replay idempotently",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-635",
+    "family": "Recovery and resilience",
+    "operator": "isolate failures",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-636",
+    "family": "Recovery and resilience",
+    "operator": "contain blast radius",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-637",
+    "family": "Recovery and resilience",
+    "operator": "degrade gracefully",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-638",
+    "family": "Recovery and resilience",
+    "operator": "fail closed",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-639",
+    "family": "Recovery and resilience",
+    "operator": "preserve user state",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-640",
+    "family": "Recovery and resilience",
+    "operator": "repair invariants",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-641",
+    "family": "Recovery and resilience",
+    "operator": "quarantine corrupt artifacts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-642",
+    "family": "Recovery and resilience",
+    "operator": "rebuild indexes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-643",
+    "family": "Recovery and resilience",
+    "operator": "restore baselines",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-644",
+    "family": "Recovery and resilience",
+    "operator": "reconcile partial completion",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-645",
+    "family": "Recovery and resilience",
+    "operator": "detect duplicate effects",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-646",
+    "family": "Recovery and resilience",
+    "operator": "drain queues safely",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-647",
+    "family": "Recovery and resilience",
+    "operator": "retain failure evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-648",
+    "family": "Recovery and resilience",
+    "operator": "test recovery paths",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-649",
+    "family": "Recovery and resilience",
+    "operator": "distinguish transient failures",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-650",
+    "family": "Recovery and resilience",
+    "operator": "escalate irrecoverable failures",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-651",
+    "family": "Learning and adaptation",
+    "operator": "learn",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-652",
+    "family": "Learning and adaptation",
+    "operator": "update models",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-653",
+    "family": "Learning and adaptation",
+    "operator": "revise beliefs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-654",
+    "family": "Learning and adaptation",
+    "operator": "adapt strategies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-655",
+    "family": "Learning and adaptation",
+    "operator": "detect concept drift",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-656",
+    "family": "Learning and adaptation",
+    "operator": "compare learning curves",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-657",
+    "family": "Learning and adaptation",
+    "operator": "incorporate feedback",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-658",
+    "family": "Learning and adaptation",
+    "operator": "separate training from evaluation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-659",
+    "family": "Learning and adaptation",
+    "operator": "preserve held-out cases",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-660",
+    "family": "Learning and adaptation",
+    "operator": "tune hyperparameters",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-661",
+    "family": "Learning and adaptation",
+    "operator": "select features",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-662",
+    "family": "Learning and adaptation",
+    "operator": "learn representations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-663",
+    "family": "Learning and adaptation",
+    "operator": "transfer knowledge",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-664",
+    "family": "Learning and adaptation",
+    "operator": "distill verified patterns",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-665",
+    "family": "Learning and adaptation",
+    "operator": "consolidate knowledge",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-666",
+    "family": "Learning and adaptation",
+    "operator": "correct mistaken beliefs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-667",
+    "family": "Learning and adaptation",
+    "operator": "unlearn invalid rules",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-668",
+    "family": "Learning and adaptation",
+    "operator": "estimate generalization error",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-669",
+    "family": "Learning and adaptation",
+    "operator": "detect overfitting",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-670",
+    "family": "Learning and adaptation",
+    "operator": "detect underfitting",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-671",
+    "family": "Learning and adaptation",
+    "operator": "compare incumbents",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-672",
+    "family": "Learning and adaptation",
+    "operator": "test candidate improvements",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-673",
+    "family": "Learning and adaptation",
+    "operator": "monitor regressions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-674",
+    "family": "Learning and adaptation",
+    "operator": "retain counterexamples",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-675",
+    "family": "Learning and adaptation",
+    "operator": "validate learning gains",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-676",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "interpret",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-677",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "disambiguate",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-678",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "parse meaning",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-679",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "resolve references",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-680",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "infer intent",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-681",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "identify presuppositions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-682",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "distinguish quotation from instruction",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-683",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "analyze entailment",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-684",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "detect semantic contradiction",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-685",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "compare paraphrases",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-686",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "translate meaning",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-687",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "preserve qualification",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-688",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "identify scope",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-689",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "resolve negation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-690",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "distinguish literal from figurative",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-691",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "extract propositions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-692",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "identify speech acts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-693",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "normalize terminology",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-694",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "align ontologies",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-695",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "identify category errors",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-696",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "test semantic equivalence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-697",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "preserve attribution",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-698",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "distinguish drafting from sending",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-699",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "resolve context dependence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-700",
+    "family": "Semantic and linguistic reasoning",
+    "operator": "detect instruction injection",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-701",
+    "family": "Quantitative reasoning",
+    "operator": "count",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-702",
+    "family": "Quantitative reasoning",
+    "operator": "sum",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-703",
+    "family": "Quantitative reasoning",
+    "operator": "subtract",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-704",
+    "family": "Quantitative reasoning",
+    "operator": "multiply",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-705",
+    "family": "Quantitative reasoning",
+    "operator": "divide",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-706",
+    "family": "Quantitative reasoning",
+    "operator": "compare magnitudes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-707",
+    "family": "Quantitative reasoning",
+    "operator": "estimate orders of magnitude",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-708",
+    "family": "Quantitative reasoning",
+    "operator": "check units",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-709",
+    "family": "Quantitative reasoning",
+    "operator": "convert units",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-710",
+    "family": "Quantitative reasoning",
+    "operator": "reconcile totals",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-711",
+    "family": "Quantitative reasoning",
+    "operator": "compute ratios",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-712",
+    "family": "Quantitative reasoning",
+    "operator": "calculate rates",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-713",
+    "family": "Quantitative reasoning",
+    "operator": "bound quantities",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-714",
+    "family": "Quantitative reasoning",
+    "operator": "propagate numerical error",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-715",
+    "family": "Quantitative reasoning",
+    "operator": "detect overflow",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-716",
+    "family": "Quantitative reasoning",
+    "operator": "check rounding",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-717",
+    "family": "Quantitative reasoning",
+    "operator": "verify dimensional consistency",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-718",
+    "family": "Quantitative reasoning",
+    "operator": "distinguish stocks from flows",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-719",
+    "family": "Quantitative reasoning",
+    "operator": "calculate break-even",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-720",
+    "family": "Quantitative reasoning",
+    "operator": "amortize costs",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-721",
+    "family": "Quantitative reasoning",
+    "operator": "compute compounding",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-722",
+    "family": "Quantitative reasoning",
+    "operator": "discount cash flows",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-723",
+    "family": "Quantitative reasoning",
+    "operator": "separate nominal from real",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-724",
+    "family": "Quantitative reasoning",
+    "operator": "test conservation equations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-725",
+    "family": "Quantitative reasoning",
+    "operator": "independently recompute arithmetic",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-726",
+    "family": "Systems reasoning",
+    "operator": "model systems",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-727",
+    "family": "Systems reasoning",
+    "operator": "identify actors",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-728",
+    "family": "Systems reasoning",
+    "operator": "map incentives",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-729",
+    "family": "Systems reasoning",
+    "operator": "identify feedback loops",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-730",
+    "family": "Systems reasoning",
+    "operator": "model stock-flow relations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-731",
+    "family": "Systems reasoning",
+    "operator": "detect bottleneck migration",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-732",
+    "family": "Systems reasoning",
+    "operator": "analyze emergence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-733",
+    "family": "Systems reasoning",
+    "operator": "inspect coupling",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-734",
+    "family": "Systems reasoning",
+    "operator": "assess modularity",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-735",
+    "family": "Systems reasoning",
+    "operator": "identify leverage points",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-736",
+    "family": "Systems reasoning",
+    "operator": "model cascading failures",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-737",
+    "family": "Systems reasoning",
+    "operator": "assess redundancy",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-738",
+    "family": "Systems reasoning",
+    "operator": "analyze network effects",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-739",
+    "family": "Systems reasoning",
+    "operator": "test stability",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-740",
+    "family": "Systems reasoning",
+    "operator": "model oscillation",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-741",
+    "family": "Systems reasoning",
+    "operator": "inspect equilibria",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-742",
+    "family": "Systems reasoning",
+    "operator": "detect tipping points",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-743",
+    "family": "Systems reasoning",
+    "operator": "compare centralized control",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-744",
+    "family": "Systems reasoning",
+    "operator": "compare distributed control",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-745",
+    "family": "Systems reasoning",
+    "operator": "identify principal-agent conflicts",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-746",
+    "family": "Systems reasoning",
+    "operator": "inspect externalities",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-747",
+    "family": "Systems reasoning",
+    "operator": "evaluate second-order effects",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-748",
+    "family": "Systems reasoning",
+    "operator": "analyze resource contention",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-749",
+    "family": "Systems reasoning",
+    "operator": "test boundary assumptions",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-750",
+    "family": "Systems reasoning",
+    "operator": "distinguish local from global optima",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-751",
+    "family": "Scientific experimentation",
+    "operator": "experiment",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-752",
+    "family": "Scientific experimentation",
+    "operator": "preregister hypotheses",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-753",
+    "family": "Scientific experimentation",
+    "operator": "define controls",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-754",
+    "family": "Scientific experimentation",
+    "operator": "randomize assignment",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-755",
+    "family": "Scientific experimentation",
+    "operator": "blind assessment",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-756",
+    "family": "Scientific experimentation",
+    "operator": "replicate independently",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-757",
+    "family": "Scientific experimentation",
+    "operator": "test alternative mechanisms",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-758",
+    "family": "Scientific experimentation",
+    "operator": "distinguish exploratory from confirmatory",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-759",
+    "family": "Scientific experimentation",
+    "operator": "design factorial tests",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-760",
+    "family": "Scientific experimentation",
+    "operator": "vary one factor",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-761",
+    "family": "Scientific experimentation",
+    "operator": "hold confounders constant",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-762",
+    "family": "Scientific experimentation",
+    "operator": "measure effect sizes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-763",
+    "family": "Scientific experimentation",
+    "operator": "assess statistical power",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-764",
+    "family": "Scientific experimentation",
+    "operator": "inspect residuals",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-765",
+    "family": "Scientific experimentation",
+    "operator": "correct multiple comparisons",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-766",
+    "family": "Scientific experimentation",
+    "operator": "test robustness",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-767",
+    "family": "Scientific experimentation",
+    "operator": "conduct sensitivity analysis",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-768",
+    "family": "Scientific experimentation",
+    "operator": "audit exclusion rules",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-769",
+    "family": "Scientific experimentation",
+    "operator": "preserve null results",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-770",
+    "family": "Scientific experimentation",
+    "operator": "distinguish significance from importance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-771",
+    "family": "Scientific experimentation",
+    "operator": "validate instruments",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-772",
+    "family": "Scientific experimentation",
+    "operator": "preregister stopping rules",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-773",
+    "family": "Scientific experimentation",
+    "operator": "report uncertainty",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-774",
+    "family": "Scientific experimentation",
+    "operator": "test reproducibility",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-775",
+    "family": "Scientific experimentation",
+    "operator": "revise theories from evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-776",
+    "family": "Governed evaluation",
+    "operator": "classify authority",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-777",
+    "family": "Governed evaluation",
+    "operator": "check consent",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-778",
+    "family": "Governed evaluation",
+    "operator": "verify scope",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-779",
+    "family": "Governed evaluation",
+    "operator": "preserve capability gates",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-780",
+    "family": "Governed evaluation",
+    "operator": "distinguish proposal from execution",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-781",
+    "family": "Governed evaluation",
+    "operator": "distinguish installed from running",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-782",
+    "family": "Governed evaluation",
+    "operator": "distinguish submission from acknowledgement",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-783",
+    "family": "Governed evaluation",
+    "operator": "separate model confidence from permission",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-784",
+    "family": "Governed evaluation",
+    "operator": "inspect privacy boundaries",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-785",
+    "family": "Governed evaluation",
+    "operator": "minimize data egress",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-786",
+    "family": "Governed evaluation",
+    "operator": "verify approval provenance",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-787",
+    "family": "Governed evaluation",
+    "operator": "enforce budget ceilings",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-788",
+    "family": "Governed evaluation",
+    "operator": "enforce kill switches",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-789",
+    "family": "Governed evaluation",
+    "operator": "audit conflicts of interest",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-790",
+    "family": "Governed evaluation",
+    "operator": "protect independent evaluators",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-791",
+    "family": "Governed evaluation",
+    "operator": "reject self-certification",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-792",
+    "family": "Governed evaluation",
+    "operator": "require destination-specific approval",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-793",
+    "family": "Governed evaluation",
+    "operator": "preserve audit trails",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-794",
+    "family": "Governed evaluation",
+    "operator": "distinguish observation from inference",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-795",
+    "family": "Governed evaluation",
+    "operator": "limit claims to evidence",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-796",
+    "family": "Governed evaluation",
+    "operator": "record residual risk",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-797",
+    "family": "Governed evaluation",
+    "operator": "document model limitations",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-798",
+    "family": "Governed evaluation",
+    "operator": "require reversible promotion",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-799",
+    "family": "Governed evaluation",
+    "operator": "reconcile final outcomes",
+    "status": "proposed vocabulary, not an implemented capability"
+  },
+  {
+    "id": "OP-800",
+    "family": "Governed evaluation",
+    "operator": "report blockers honestly",
+    "status": "proposed vocabulary, not an implemented capability"
+  }
+]
