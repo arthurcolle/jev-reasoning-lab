@@ -1,0 +1,885 @@
+{
+  "original-2": {
+    "description": "Saved original notebook cell 2; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "jev module: <python-environment>/lib/python3.14/site-packages/jev.py\npublic API: ['fn', 'JevFn', 'AsyncJevFn', 'BaseModel', 'decide', 'adecide', 'state_payload', 'builder']\nTYPESAFE_API_KEY set: True\n"
+      }
+    ]
+  },
+  "original-4": {
+    "description": "Saved original notebook cell 4; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "label='positive' is_strong=True\nlabel='negative' is_strong=True\nlabel='neutral' is_strong=False\n"
+      }
+    ]
+  },
+  "original-8": {
+    "description": "Saved original notebook cell 8; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "risk='low' tests_adequate=False comments=2 confidence=0.73\n"
+      }
+    ]
+  },
+  "original-10": {
+    "description": "Saved original notebook cell 10; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "priority=<Priority.P0: 'p0'> affects_payment=True severity=3\npriority=<Priority.P2: 'p2'> affects_payment=False severity=0\n"
+      }
+    ]
+  },
+  "original-12": {
+    "description": "Saved original notebook cell 12; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "decision_made=True next_step_owner='bob' action_items=2\n"
+      }
+    ]
+  },
+  "original-14": {
+    "description": "Saved original notebook cell 14; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "    en | greeting=True  | Hello, how are you today?\n    fr | greeting=True  | Bonjour, comment \u00e7a va ?\n    es | greeting=True  | Hola, \u00bfqu\u00e9 tal?\n    de | greeting=True  | Guten Morgen, wie geht es dir?\n    ja | greeting=True  | \u3053\u3093\u306b\u3061\u306f\u3001\u5143\u6c17\u3067\u3059\u304b\uff1f\n other | greeting=False | xQ7! zorp nibbler \u2014 not really a language.\n"
+      }
+    ]
+  },
+  "original-17": {
+    "description": "Saved original notebook cell 17; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "is_spam=True category='phishing'\nis_spam=False category='legit'\n"
+      }
+    ]
+  },
+  "original-19": {
+    "description": "Saved original notebook cell 19; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "has_liability_cap=True governing_law='delaware' term_band=2\nconstructed locally, no API: has_liability_cap=True governing_law='delaware' term_band=1\n"
+      }
+    ]
+  },
+  "original-22": {
+    "description": "Saved original notebook cell 22; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "topic='finance' is_breaking=False\ntopic='sports' is_breaking=False\n"
+      }
+    ]
+  },
+  "original-24": {
+    "description": "Saved original notebook cell 24; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "lenient (>=0.5):  proceed=False\nstrict  (>=0.95): proceed=False\nclass-pinned 0.95: proceed=False\n"
+      }
+    ]
+  },
+  "original-26": {
+    "description": "Saved original notebook cell 26; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "short-circuited (no API): queue='fast'\nvia Jev: queue='fast'\nstate payload: None\n"
+      }
+    ]
+  },
+  "original-28": {
+    "description": "Saved original notebook cell 28; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "[return: str] TypeError at decoration time: @jev.fn: bad_return.<locals>.f must return a pydantic BaseModel subclass, got <class 'str'>\n[field: str] TypeError at decoration time: @jev.fn: M.name has unsupported type <class 'str'>. Jev cannot generate strings, so fields must be bool, Literal[...], Enum, or int/float constrained with Field(ge=..., le=...).\n[score w/o bounds] TypeError at decoration time: @jev.fn: M.n is a score; constrain it with Field(ge=..., le=...)\n[label collision] TypeError at decoration time: @jev.fn: field 'v' has options that collide when stringified: '1'\n[threshold 1.5] ValueError at decoration time: @jev.fn: bool threshold from @jev.fn(bool_threshold=...) must be in [0, 1], got 1.5\n"
+      }
+    ]
+  },
+  "original-30": {
+    "description": "Saved original notebook cell 30; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "model: jev-1.13.0 | usage: input_tokens=372 output_tokens=74\nbilling p(yes) = 0.98\ntone = furious | confidence: 0.76 | probs: {'calm': 0.0, 'furious': 0.84, 'frustrated': 0.16}\nurgency = 2.98 | legend: {0: 'whenever', 1: 'soon', 2: 'today', 3: 'immediately'} | confidence: 0.98\n"
+      }
+    ]
+  },
+  "original-33": {
+    "description": "Saved original notebook cell 33; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "thread: 1 opener + 7 follow-ups\n  \u00b7 Why?\n  \u00b7 What's the single biggest risk in the raise-now path?\n  \u00b7 And if we cut burn instead \u2014 what's the first thing to cut?\n  \u00b7 ok. Summarize that as three bullets.\n  \u00b7 thanks. make the bullets shorter.\n  \u00b7 What about the second bullet \u2014 expand it a little.\n  \u00b7 Now something new: design a distributed rate limiter that is fair acro\n"
+      }
+    ]
+  },
+  "original-35": {
+    "description": "Saved original notebook cell 35; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "followup_detected=False context_sufficient=False lane='strong'\nfollowup_detected=True context_sufficient=False lane='cheap'\n"
+      }
+    ]
+  },
+  "original-37": {
+    "description": "Saved original notebook cell 37; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "p(cheap suffices)=0.480  | Why?\np(cheap suffices)=0.560  | What's the single biggest risk in the raise-now path?\np(cheap suffices)=0.580  | And if we cut burn instead \u2014 what's the first thing to cut?\np(cheap suffices)=0.720  | ok. Summarize that as three bullets.\n"
+      }
+    ]
+  },
+  "original-39": {
+    "description": "Saved original notebook cell 39; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "claude-opus-4-6              p=0.48  followup=True  | Why?\nclaude-opus-4-6              p=0.55  followup=True  | What's the single biggest risk in the raise-now pa\nclaude-opus-4-6              p=0.57  followup=True  | And if we cut burn instead \u2014 what's the first thin\nclaude-haiku-4-5-20251001    p=0.7   followup=True  | ok. Summarize that as three bullets.\n"
+      }
+    ]
+  },
+  "original-41": {
+    "description": "Saved original notebook cell 41; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "OPENER  cost=5.0 p_cheap=0.41  escal=False claude-opus-4-6            | We're a 12-person B2B SaaS startup, ~$40k MRR, 8\nfollow1 cost=5.0 p_cheap=0.34  escal=True  claude-opus-4-6            | Why?\nfollow2 cost=5.0 p_cheap=0.39  escal=True  claude-opus-4-6            | What's the single biggest risk in the raise-now \nfollow3 cost=5.0 p_cheap=0.44  escal=True  claude-opus-4-6            | And if we cut burn instead \u2014 what's the first th\nfollow4 cost=1.0 p_cheap=0.81  escal=False claude-haiku-4-5-20251001  | ok. Summarize that as three bullets.\nfollow5 cost=1.0 p_cheap=0.9   escal=False claude-haiku-4-5-20251001  | thanks. make the bullets shorter.\nfollow6 cost=1.0 p_cheap=0.79  escal=False claude-haiku-4-5-20251001  | What about the second bullet \u2014 expand it a littl\nfollow7 cost=5.0 p_cheap=0.22  escal=False claude-opus-4-6            | Now something new: design a distributed rate lim\n\n8 turns: 3 cheap / 5 strong\nrelative cost \u2014 always-strong: 40 | always-cheap: 8 | routed: 28.0\nsavings vs always-strong: 30%  (the follow-up discount)\n"
+      }
+    ]
+  },
+  "original-43": {
+    "description": "Saved original notebook cell 43; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "dsco lanes: 3990 total -> {'cheap': 1335, 'mid': 1886, 'strong': 769} | credential-ready: 2889\ncheap ready : ['anthropic/claude-haiku-4-5-20251001', 'cerebras/qwen-3.8-27b', 'deepseek/deepseek-flash', 'groq/allam-2-7b', 'groq/groq/compound-mini']\nstrong ready: ['anthropic/claude-opus-4-5-20251101', 'anthropic/claude-opus-4-6', 'anthropic/claude-opus-4-7', 'anthropic/claude-opus-4-8', 'anthropic/claude-opus-5']\n"
+      }
+    ]
+  },
+  "original-47": {
+    "description": "Saved original notebook cell 47; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "lenses: 18 | provider URL: https://api.typesafe.ai/v1/systemone\nprovider ready: typesafe-jev | model: jev-latest\n"
+      }
+    ]
+  },
+  "original-50": {
+    "description": "Saved original notebook cell 50; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "[decision] selected 8 lenses:\n    probabilistic, consider_opposite, temporal, argumentative, calibration, premortem, reference_class, satisficing\n[forecast] selected 8 lenses:\n    probabilistic, calibration, reference_class, consider_opposite, premortem, systems, causal, argumentative\n[sunk_cost] selected 8 lenses:\n    premortem, probabilistic, temporal, consider_opposite, deductive, dual_process, reference_class, calibration\n[factual] selected 1 lenses:\n    calibration\n\nmodel used: jev-1.13.0 | request id: req_01a0d16e45237b45bbd2666800c06256\n"
+      }
+    ]
+  },
+  "original-53": {
+    "description": "Saved original notebook cell 53; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "threshold=0.3: 17 lenses -> probabilistic, premortem, consider_opposite, deductive, temporal, dual_process, argumentative, reference_class, counterfactual, calibration, stakeholder, systems, ethical, satisficing, analogical, abductive, causal\nthreshold=0.5: 15 lenses -> probabilistic, premortem, consider_opposite, temporal, deductive, dual_process, reference_class, argumentative, counterfactual, calibration, stakeholder, systems, satisficing, ethical, analogical\nthreshold=0.7: 12 lenses -> probabilistic, consider_opposite, premortem, temporal, deductive, dual_process, reference_class, argumentative, counterfactual, stakeholder, systems, calibration\nthreshold=0.9:  1 lenses -> calibration\n\ntop lenses by calibrated probability:\n  [decision ] probabilistic=0.89, temporal=0.86, consider_opposite=0.86, argumentative=0.85, reference_class=0.85\n  [forecast ] probabilistic=0.92, calibration=0.90, reference_class=0.87, consider_opposite=0.85, premortem=0.83\n  [sunk_cost] probabilistic=0.85, temporal=0.85, premortem=0.85, consider_opposite=0.83, deductive=0.82\n  [factual  ] calibration=0.21, satisficing=0.13, deductive=0.10, causal=0.10, inductive=0.09\n"
+      }
+    ]
+  },
+  "original-55": {
+    "description": "Saved original notebook cell 55; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "lens-count per turn (threshold=0.5, the cheap-attention decision):\n  decision    8 ########\n  forecast    8 ########\n  sunk_cost   8 ########\n  factual     1 #\n\nfactual uses 1 lens(es) vs decision 8 -> Jev allocates attention proportionally\n"
+      }
+    ]
+  },
+  "original-57": {
+    "description": "Saved original notebook cell 57; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "Typed decision adapter selected these analysis lenses (threshold 0.50): probabilistic, consider_opposite, temporal, argumentative, calibration, premortem, reference_class, satisficing. Selected relevance probabilities: probabilistic=0.89, consider_opposite=0.86, temporal=0.86, argumentative=0.85, calibration=0.85, premortem=0.85, reference_class=0.85, satisficing=0.83. Treat these and their probabilities only as attention-allocation hints; they are not findings about the truth of the request or evidence that a cognitive bias is present. Answer the user's request directly and keep conclusions grounded in its evidence.\n\n--- this string is injected into the strong model's CognitiveAnalysisSignature ---\n--- as `decision_context`: typed lens-selection cues, explicitly 'not evidence or findings' ---\n"
+      }
+    ]
+  },
+  "original-61": {
+    "description": "Saved original notebook cell 61; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "probed 5 cloud nodes | reachable: 5\n  \u2705 node-a  2cpu 1361MB free  load=0.13  (public_edge)\n  \u2705 node-b        4cpu 7043MB free  load=0.05  (account_control_plane)\n  \u2705 node-c        4cpu 5190MB free  load=0.35  (product_services)\n  \u2705 node-d        3cpu 2885MB free  load=0.17  (compute_workers)\n  \u2705 node-e        1cpu 1424MB free  load=0.1  (operations_and_standby)\n"
+      }
+    ]
+  },
+  "original-63": {
+    "description": "Saved original notebook cell 63; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "Jev calibrated node selection (p_fit):\n  0.790  node-d        node-d: 3 cpus, 2885MB RAM free, load_1m=0.17, disk_avail=68\n  0.600  node-b        node-b: 4 cpus, 7043MB RAM free, load_1m=0.05, disk_avail=68\n  0.520  node-a  node-a: 2 cpus, 1361MB RAM free, load_1m=0.13, disk_av\n  0.520  node-c        node-c: 4 cpus, 5190MB RAM free, load_1m=0.35, disk_avail=37\n  0.420  node-e        node-e: 1 cpus, 1424MB RAM free, load_1m=0.1, disk_avail=337\n\nselected: node-d (p=0.79) \u2014 the user did not pick this; the layer did.\n"
+      }
+    ]
+  },
+  "original-65": {
+    "description": "Saved original notebook cell 65; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "=== execution receipt ===\n{\n \"node\": \"node-d\",\n \"mesh\": \"192.0.2.2\",\n \"duration_s\": 0.75,\n \"ok\": true,\n \"stdout\": \"{\\\"primes\\\": [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71], \\\"count\\\": 20}\",\n \"stderr\": \"\",\n \"ran_at\": \"2026-09-24T03:20:09Z\",\n \"placement_confidence\": 0.79\n}\n"
+      }
+    ]
+  },
+  "original-68": {
+    "description": "Saved original notebook cell 68; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "outcome ledger (the re-belief substrate):\n  {'node': 'node-d', 'ok': True, 'duration_s': 0.6, 'predicted_p_fit': 0.78, 'ran_at': '2026-09-24T03:15:45Z'}\n\ntrack record: {'node': 'node-d', 'runs': 1, 'success_rate': 1.0, 'avg_duration_s': 0.6}\n\nloop closed: probe -> select -> dispatch -> receipt -> re-believe.\n"
+      }
+    ]
+  },
+  "original-70": {
+    "description": "Saved original notebook cell 70; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "=== substrate-independent query result ===\n{\n \"node\": \"node-b\",\n \"mesh\": \"192.0.2.1\",\n \"duration_s\": 1.4,\n \"ok\": true,\n \"stdout\": \"{\\\"hostname\\\": \\\"node-b-host\\\", \\\"cpus\\\": 4}\",\n \"stderr\": \"\",\n \"ran_at\": \"2026-09-24T03:15:55Z\",\n \"placement_confidence\": 0.87,\n \"candidates\": [\n  [\n   \"node-b\",\n   0.87\n  ],\n  [\n   \"node-d\",\n   0.73\n  ],\n  [\n   \"node-c\",\n   0.71\n  ],\n  [\n   \"node-a\",\n   0.59\n  ],\n  [\n   \"node-e\",\n   0.31\n  ]\n ]\n}\n\nthe layer chose node-b from candidates [('node-b', 0.87), ('node-d', 0.73), ('node-c', 0.71), ('node-a', 0.59), ('node-e', 0.31)] \u2014 you never named a machine.\n"
+      }
+    ]
+  },
+  "original-73": {
+    "description": "Saved original notebook cell 73; historical result, not a new API call.",
+    "outputs": [
+      {
+        "data": {
+          "image/svg+xml": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"850\" height=\"280\" viewBox=\"0 0 850 280\"><rect width=\"850\" height=\"280\" fill=\"#111827\"/><text x=\"25\" y=\"25\" fill=\"white\">Numeric attention recurrence: active lenses (threshold 0.5)</text><polyline points=\"40.0,70.0 47.5,60.0 55.0,60.0 62.5,60.0 70.0,60.0 77.5,70.0 85.0,60.0 92.5,60.0 100.0,60.0 107.5,60.0 115.0,60.0 122.5,60.0 130.0,70.0 137.5,60.0 145.0,60.0 152.5,70.0 160.0,60.0 167.5,60.0 175.0,60.0 182.5,60.0 190.0,60.0 197.5,70.0 205.0,60.0 212.5,60.0 220.0,60.0 227.5,60.0 235.0,60.0 242.5,60.0 250.0,60.0 257.5,60.0 265.0,60.0 272.5,60.0 280.0,60.0 287.5,60.0 295.0,70.0 302.5,60.0 310.0,60.0 317.5,60.0 325.0,60.0 332.5,60.0 340.0,60.0 347.5,60.0 355.0,60.0 362.5,60.0 370.0,60.0 377.5,60.0 385.0,60.0 392.5,60.0 400.0,60.0 407.5,60.0 415.0,60.0 422.5,60.0 430.0,60.0 437.5,60.0 445.0,60.0 452.5,70.0 460.0,60.0 467.5,60.0 475.0,60.0 482.5,60.0 490.0,60.0 497.5,60.0 505.0,60.0 512.5,60.0 520.0,60.0 527.5,60.0 535.0,60.0 542.5,60.0 550.0,60.0 557.5,60.0 565.0,60.0 572.5,60.0 580.0,60.0 587.5,60.0 595.0,60.0 602.5,70.0 610.0,60.0 617.5,60.0 625.0,60.0 632.5,60.0 640.0,60.0 647.5,60.0 655.0,60.0 662.5,60.0 670.0,60.0 677.5,60.0 685.0,60.0 692.5,60.0 700.0,60.0 707.5,60.0 715.0,60.0 722.5,70.0 730.0,60.0 737.5,60.0 745.0,60.0 752.5,60.0 760.0,60.0\" fill=\"none\" stroke=\"#4f8cff\" stroke-width=\"2\"/><text x=\"40\" y=\"265\" fill=\"#4f8cff\">decision</text><polyline points=\"40.0,240.0 47.5,60.0 55.0,70.0 62.5,60.0 70.0,60.0 77.5,60.0 85.0,60.0 92.5,70.0 100.0,60.0 107.5,60.0 115.0,60.0 122.5,60.0 130.0,60.0 137.5,60.0 145.0,60.0 152.5,70.0 160.0,60.0 167.5,60.0 175.0,60.0 182.5,60.0 190.0,60.0 197.5,60.0 205.0,60.0 212.5,60.0 220.0,60.0 227.5,60.0 235.0,60.0 242.5,60.0 250.0,60.0 257.5,60.0 265.0,60.0 272.5,60.0 280.0,60.0 287.5,60.0 295.0,70.0 302.5,60.0 310.0,60.0 317.5,60.0 325.0,60.0 332.5,60.0 340.0,60.0 347.5,60.0 355.0,60.0 362.5,60.0 370.0,60.0 377.5,60.0 385.0,60.0 392.5,70.0 400.0,60.0 407.5,70.0 415.0,60.0 422.5,60.0 430.0,60.0 437.5,60.0 445.0,60.0 452.5,60.0 460.0,60.0 467.5,60.0 475.0,60.0 482.5,60.0 490.0,60.0 497.5,60.0 505.0,60.0 512.5,60.0 520.0,60.0 527.5,60.0 535.0,60.0 542.5,60.0 550.0,60.0 557.5,60.0 565.0,60.0 572.5,70.0 580.0,60.0 587.5,60.0 595.0,60.0 602.5,60.0 610.0,60.0 617.5,60.0 625.0,60.0 632.5,60.0 640.0,60.0 647.5,60.0 655.0,60.0 662.5,60.0 670.0,60.0 677.5,60.0 685.0,60.0 692.5,60.0 700.0,60.0 707.5,60.0 715.0,60.0 722.5,60.0 730.0,60.0 737.5,70.0 745.0,60.0 752.5,60.0 760.0,60.0\" fill=\"none\" stroke=\"#e6a23c\" stroke-width=\"2\"/><text x=\"230\" y=\"265\" fill=\"#e6a23c\">factual</text><polyline points=\"40.0,80.0 47.5,60.0 55.0,60.0 62.5,60.0 70.0,60.0 77.5,60.0 85.0,70.0 92.5,60.0 100.0,60.0 107.5,60.0 115.0,70.0 122.5,60.0 130.0,60.0 137.5,60.0 145.0,60.0 152.5,70.0 160.0,60.0 167.5,60.0 175.0,60.0 182.5,60.0 190.0,60.0 197.5,70.0 205.0,60.0 212.5,60.0 220.0,70.0 227.5,70.0 235.0,60.0 242.5,70.0 250.0,70.0 257.5,60.0 265.0,70.0 272.5,60.0 280.0,60.0 287.5,60.0 295.0,60.0 302.5,60.0 310.0,70.0 317.5,60.0 325.0,60.0 332.5,60.0 340.0,70.0 347.5,60.0 355.0,60.0 362.5,60.0 370.0,60.0 377.5,60.0 385.0,60.0 392.5,60.0 400.0,60.0 407.5,60.0 415.0,60.0 422.5,60.0 430.0,60.0 437.5,60.0 445.0,60.0 452.5,60.0 460.0,60.0 467.5,60.0 475.0,60.0 482.5,70.0 490.0,60.0 497.5,60.0 505.0,60.0 512.5,60.0 520.0,60.0 527.5,60.0 535.0,60.0 542.5,60.0 550.0,70.0 557.5,60.0 565.0,60.0 572.5,60.0 580.0,60.0 587.5,60.0 595.0,60.0 602.5,60.0 610.0,60.0 617.5,60.0 625.0,70.0 632.5,60.0 640.0,60.0 647.5,60.0 655.0,60.0 662.5,60.0 670.0,60.0 677.5,60.0 685.0,60.0 692.5,60.0 700.0,60.0 707.5,60.0 715.0,70.0 722.5,70.0 730.0,60.0 737.5,60.0 745.0,60.0 752.5,60.0 760.0,60.0\" fill=\"none\" stroke=\"#22b573\" stroke-width=\"2\"/><text x=\"420\" y=\"265\" fill=\"#22b573\">forecast</text><polyline points=\"40.0,90.0 47.5,60.0 55.0,60.0 62.5,60.0 70.0,60.0 77.5,60.0 85.0,60.0 92.5,60.0 100.0,60.0 107.5,60.0 115.0,60.0 122.5,60.0 130.0,60.0 137.5,60.0 145.0,60.0 152.5,70.0 160.0,60.0 167.5,60.0 175.0,60.0 182.5,60.0 190.0,60.0 197.5,60.0 205.0,60.0 212.5,70.0 220.0,60.0 227.5,60.0 235.0,60.0 242.5,60.0 250.0,60.0 257.5,60.0 265.0,60.0 272.5,60.0 280.0,60.0 287.5,60.0 295.0,60.0 302.5,60.0 310.0,60.0 317.5,60.0 325.0,60.0 332.5,60.0 340.0,60.0 347.5,60.0 355.0,60.0 362.5,60.0 370.0,60.0 377.5,60.0 385.0,60.0 392.5,60.0 400.0,60.0 407.5,60.0 415.0,60.0 422.5,60.0 430.0,60.0 437.5,60.0 445.0,60.0 452.5,60.0 460.0,60.0 467.5,60.0 475.0,60.0 482.5,60.0 490.0,60.0 497.5,60.0 505.0,60.0 512.5,60.0 520.0,60.0 527.5,60.0 535.0,70.0 542.5,60.0 550.0,60.0 557.5,60.0 565.0,60.0 572.5,60.0 580.0,60.0 587.5,60.0 595.0,60.0 602.5,70.0 610.0,60.0 617.5,60.0 625.0,60.0 632.5,60.0 640.0,70.0 647.5,60.0 655.0,70.0 662.5,70.0 670.0,60.0 677.5,70.0 685.0,60.0 692.5,60.0 700.0,60.0 707.5,60.0 715.0,60.0 722.5,60.0 730.0,60.0 737.5,60.0 745.0,60.0 752.5,70.0 760.0,60.0\" fill=\"none\" stroke=\"#be63db\" stroke-width=\"2\"/><text x=\"610\" y=\"265\" fill=\"#be63db\">sunk_cost</text><text x=\"40\" y=\"45\" fill=\"white\">18 lenses</text><text x=\"705\" y=\"245\" fill=\"white\">depth 96</text></svg>",
+          "text/plain": "Observed numeric recurrence: four 96-step chains"
+        },
+        "metadata": {},
+        "output_type": "display_data"
+      }
+    ]
+  },
+  "original-75": {
+    "description": "Saved original notebook cell 75; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=08 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=08 delta=0.030 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=08 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=08 delta=0.030 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=16 delta=0.070 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=16 delta=0.030 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=16 delta=0.020 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=16 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=24 delta=0.060 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=24 delta=0.050 active=17 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=24 delta=0.030 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=24 delta=0.030 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=32 delta=0.030 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=32 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=32 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=32 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=40 delta=0.030 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=40 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=40 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=40 delta=0.040 active=17 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=48 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=48 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=48 delta=0.030 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=48 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=56 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=56 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=56 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=56 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=64 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=64 delta=0.020 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=64 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=64 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=72 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=72 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=72 delta=0.030 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=72 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=80 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=80 delta=0.050 active=17 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=80 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=80 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=88 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=88 delta=0.030 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=88 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=88 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain sunk_cost depth=96 delta=0.040 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain decision  depth=96 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain factual   depth=96 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "chain forecast  depth=96 delta=0.050 active=18 H=4.16\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=01 evaluated=4 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=02 evaluated=1 next=2 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=03 evaluated=0 next=0 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "\nFINISHED {\"calls_attempted\": 401, \"calls_successful\": 401, \"estimated_inference_usd\": 0.165865896, \"reserved_usd\": 1.497133931999996, \"elapsed_seconds\": 20.944542334065773, \"models\": [\"jev-1.13.0\"]}\n"
+      }
+    ]
+  },
+  "original-77": {
+    "description": "Saved original notebook cell 77; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=01 evaluated=4 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=02 evaluated=8 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=03 evaluated=8 next=8 merges=2\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=04 evaluated=8 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=05 evaluated=8 next=8 merges=2\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=06 evaluated=8 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=07 evaluated=8 next=8 merges=2\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=08 evaluated=8 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=09 evaluated=8 next=8 merges=4\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=10 evaluated=8 next=8 merges=2\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=11 evaluated=8 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=12 evaluated=8 next=8 merges=2\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=13 evaluated=8 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=14 evaluated=8 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=15 evaluated=8 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=16 evaluated=8 next=8 merges=2\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=17 evaluated=8 next=8 merges=8\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=18 evaluated=8 next=8 merges=2\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=19 evaluated=8 next=8 merges=2\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=20 evaluated=8 next=8 merges=0\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "tree depth=21 evaluated=4 next=4 merges=4\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "\nFINISHED {\"calls_attempted\": 160, \"calls_successful\": 160, \"estimated_inference_usd\": 0.035377482, \"reserved_usd\": 0.26372581199999995, \"elapsed_seconds\": 6.023455542046577, \"models\": [\"jev-1.13.0\"]}\n"
+      }
+    ]
+  },
+  "original-79": {
+    "description": "Saved original notebook cell 79; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "{\n  \"enabled\": true,\n  \"implementation\": \"8 independent asyncio frontier workers, 2 per role, inside existing notebook kernel; not external generative agents\",\n  \"roles\": [\n    \"forward\",\n    \"backward\",\n    \"backtrack\",\n    \"verify\"\n  ],\n  \"calls_attempted\": 80,\n  \"calls_successful\": 80,\n  \"role_counts\": {\n    \"forward\": 23,\n    \"backward\": 21,\n    \"backtrack\": 18,\n    \"verify\": 18\n  },\n  \"peak_inflight\": 8,\n  \"max_depth\": 4,\n  \"reserved_usd\": 0.10345515600000003,\n  \"estimated_inference_usd\": 0.012657414000000002,\n  \"stop\": \"bounded_frontier_drained\",\n  \"max_calls\": 80,\n  \"max_reserved_usd\": 0.2,\n  \"workers_collected\": 8,\n  \"pending_jobs\": 0,\n  \"replay_checks\": [\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 3,\n      \"verification_call\": 9,\n      \"target_max_delta\": 0.44,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 2,\n      \"verification_call\": 11,\n      \"target_max_delta\": 0.41,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 8,\n      \"verification_call\": 19,\n      \"target_max_delta\": 0.31000000000000005,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 10,\n      \"verification_call\": 20,\n      \"target_max_delta\": 0.47000000000000003,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 15,\n      \"verification_call\": 24,\n      \"target_max_delta\": 0.050000000000000044,\n      \"accepted_numeric_replay\": true,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 18,\n      \"verification_call\": 29,\n      \"target_max_delta\": 0.040000000000000036,\n      \"accepted_numeric_replay\": true,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 27,\n      \"verification_call\": 32,\n      \"target_max_delta\": 0.06000000000000005,\n      \"accepted_numeric_replay\": true,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 23,\n      \"verification_call\": 35,\n      \"target_max_delta\": 0.06000000000000005,\n      \"accepted_numeric_replay\": true,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 34,\n      \"verification_call\": 41,\n      \"target_max_delta\": 0.04999999999999999,\n      \"accepted_numeric_replay\": true,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 31,\n      \"verification_call\": 39,\n      \"target_max_delta\": 0.10000000000000003,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 40,\n      \"verification_call\": 50,\n      \"target_max_delta\": 0.07,\n      \"accepted_numeric_replay\": true,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 38,\n      \"verification_call\": 47,\n      \"target_max_delta\": 0.10999999999999999,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 49,\n      \"verification_call\": 57,\n      \"target_max_delta\": 0.10999999999999999,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 45,\n      \"verification_call\": 60,\n      \"target_max_delta\": 0.10999999999999999,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 58,\n      \"verification_call\": 67,\n      \"target_max_delta\": 0.42,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 56,\n      \"verification_call\": 66,\n      \"target_max_delta\": 0.06,\n      \"accepted_numeric_replay\": true,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 63,\n      \"verification_call\": 72,\n      \"target_max_delta\": 0.41999999999999993,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    },\n    {\n      \"event\": \"replay_verification\",\n      \"proposal\": 65,\n      \"verification_call\": 77,\n      \"target_max_delta\": 0.08000000000000002,\n      \"accepted_numeric_replay\": false,\n      \"scope\": \"Numeric map only; not factual verification or latent reasoning\"\n    }\n  ],\n  \"restores\": [\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 3,\n      \"from\": 9,\n      \"restored_parent\": \"seed:1\",\n      \"alternate_pivot\": 13\n    },\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 2,\n      \"from\": 11,\n      \"restored_parent\": \"seed:0\",\n      \"alternate_pivot\": 8\n    },\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 8,\n      \"from\": 19,\n      \"restored_parent\": \"seed:2\",\n      \"alternate_pivot\": 8\n    },\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 10,\n      \"from\": 20,\n      \"restored_parent\": \"seed:3\",\n      \"alternate_pivot\": 16\n    },\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 31,\n      \"from\": 39,\n      \"restored_parent\": 24,\n      \"alternate_pivot\": 8\n    },\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 38,\n      \"from\": 47,\n      \"restored_parent\": 29,\n      \"alternate_pivot\": 11\n    },\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 49,\n      \"from\": 57,\n      \"restored_parent\": 35,\n      \"alternate_pivot\": 16\n    },\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 45,\n      \"from\": 60,\n      \"restored_parent\": 32,\n      \"alternate_pivot\": 5\n    },\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 58,\n      \"from\": 67,\n      \"restored_parent\": 37,\n      \"alternate_pivot\": 5\n    },\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 63,\n      \"from\": 72,\n      \"restored_parent\": 42,\n      \"alternate_pivot\": 1\n    },\n    {\n      \"event\": \"backtrack_restore\",\n      \"rejected_proposal\": 65,\n      \"from\": 77,\n      \"restored_parent\": 51,\n      \"alternate_pivot\": 11\n    }\n  ],\n  \"elapsed_seconds\": 2.602955749956891,\n  \"model\": \"jev-1.13.0\",\n  \"interpretation\": \"Backward chaining is a proposed inverse of a numeric attention map, validated by an independent forward call. Same provider/model, not independent model truth verification. Exhaustion due to call/budget caps is not cognitive collapse.\"\n}\n"
+      }
+    ]
+  },
+  "original-81": {
+    "description": "Saved original notebook cell 81; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "50 projects scored with 100 typed questions; top ten: [('P11', 'Invoice exception extraction', 0.92), ('P40', 'Spreadsheet formula audit', 0.92), ('P27', 'Localization QA checker', 0.91), ('P29', 'PDF table extraction verification', 0.91), ('P35', 'Inventory reorder exception report', 0.91), ('P21', 'CRM duplicate cleanup proposals', 0.9), ('P30', 'Research citation verifier', 0.9), ('P16', 'Purchase order reconciliation', 0.89), ('P26', 'Product release-note generator', 0.89), ('P39', 'Data pipeline freshness sentinel', 0.89)]\n"
+      }
+    ]
+  },
+  "original-84": {
+    "description": "Saved original notebook cell 84; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "H0R00: underdetermined. Compatible premise states: 19. Model answer conflicts with the checked atoms. Next: Obtain the missing evidence.\nH1R00: supported. Checked minimum path cost: 18. Model answer conflicts with the checked atoms. Next: Use the checked result within this atom schema; do not generalize beyond it.\nH2R01: contradicted. Checked maximum value: 127 within capacity 17. Model answer conflicts with the checked atoms. Next: Use the checked result within this atom schema; do not generalize beyond it.\nH4R02: underdetermined. Possible unique effects: 2 to 4. Model answer conflicts with the checked atoms. Next: Obtain the missing evidence.\nH6R01: contradicted. Future-value optimum: option 2; sunk cost excluded. Model answer conflicts with the checked atoms. Next: Use the checked result within this atom schema; do not generalize beyond it.\nrevenue_forecast: underdetermined. This atom packet or claim is unsupported, inconsistent, malformed, or outside bounds. Next: Obtain or validate the source and atoms; do not substitute confidence.\nCandidate only. Correctly supplied atoms required; no general claim of verified text extraction or source truth.\n"
+      }
+    ]
+  },
+  "original-88": {
+    "description": "Saved original notebook cell 88; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "JevDecisionSurface ready | model: jev-latest\nmethods: decide_bool, decide_score, decide_choice, batch_bool -> receipts\n"
+      }
+    ]
+  },
+  "original-90": {
+    "description": "Saved original notebook cell 90; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  CHEAP  p=0.05 | What is 2+2?\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  STRONG p=0.78 | Design a fair multi-tenant rate limiter and justify the\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  CHEAP  p=0.06 | Capital of Norway?\n"
+      }
+    ]
+  },
+  "original-92": {
+    "description": "Saved original notebook cell 92; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "no live cloud nodes in this kernel session\n"
+      }
+    ]
+  },
+  "original-94": {
+    "description": "Saved original notebook cell 94; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "retrieval gate: keep [0, 2] drop [1, 3]\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  rerank score=2.99 conf=0.99 | HNSW builds a proximity graph for fast approx\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  rerank score=2.86 conf=0.86 | Product quantization compresses vectors to sp\n"
+      }
+    ]
+  },
+  "original-96": {
+    "description": "Saved original notebook cell 96; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  \u2713 sound=True  p=0.99 | Task: compute 7*19. Claimed result: 133.\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  \u2713 sound=False p=0.03 | Task: compute 7*19. Claimed result: 130.\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  \u2713 sound=True  p=0.90 | Task: summarize 'cats are mammals'. Claimed: 'cats a\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  \u2713 sound=False p=0.01 | Task: summarize 'cats are mammals'. Claimed: 'cats a\ntrust verification accuracy: 4/4\n"
+      }
+    ]
+  },
+  "original-98": {
+    "description": "Saved original notebook cell 98; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "turn: We've invested $2M, so we have to keep going \u2014 quitting now \nlenses fired: [('causal', 0.75), ('probabilistic', 0.86), ('premortem', 0.8), ('consider_opposite', 0.82), ('calibration', 0.75), ('reference_class', 0.7)]\n"
+      }
+    ]
+  },
+  "original-100": {
+    "description": "Saved original notebook cell 100; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "receipts in ledger: 16\n\nby domain: {'routing': 3, 'retrieval': 3, 'trust': 4, 'bias': 6}\nby kind: {'bool': 13, 'batch_bool': 1, 'score': 2}\n\ntotal tokens: in=5033 out=370 | total latency: 6200ms across 16 decisions\navg latency/decision: 388ms\n\nsample receipt: {\"schema\": \"dsco.jev_decide.v1\", \"domain\": \"routing\", \"kind\": \"bool\", \"subject\": \"What is 2+2?\", \"result\": false, \"confidence\": 0.05, \"latency_ms\": 409.1, \"usage\": {\"in\": 290, \"out\": 20}, \"ts\": \"2026-\n"
+      }
+    ]
+  },
+  "original-103": {
+    "description": "Saved original notebook cell 103; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "5 variants registered:\n  routing-v1-bool    domain=routing   kind=bool   \n  routing-v2-3way    domain=routing   kind=choice \n  routing-v3-score   domain=routing   kind=score  \n  fleet-v1-choice    domain=fleet     kind=choice \n  trust-v1-bool      domain=trust     kind=bool   \n"
+      }
+    ]
+  },
+  "original-105": {
+    "description": "Saved original notebook cell 105; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "routing-v1-bool over the suite:\n  strong=False p=0.05 | What is 2+2?\n  strong=False p=0.06 | Capital of Norway?\n  strong=False p=0.15 | Explain the difference between TCP and UDP.\n  strong=True  p=0.79 | Design a fair multi-tenant rate limiter and just\n  strong=True  p=0.54 | Prove that the square root of 2 is irrational an\n  strong=False p=0.07 | Write a one-liner to reverse a string in Python.\n"
+      }
+    ]
+  },
+  "original-107": {
+    "description": "Saved original notebook cell 107; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "query                                          v1-bool  v2-3way   v3-score \n------------------------------------------------------------------------------\nWhat is 2+2?                                   False    cheap     0.14     \nCapital of Norway?                             False    cheap     0.0      \nExplain the difference between TCP and UDP.    False    cheap     0.67     \nDesign a fair multi-tenant rate limiter and    True     mid       2.74     \nProve that the square root of 2 is irrationa   True     mid       1.88     \nWrite a one-liner to reverse a string in Pyt   False    cheap     0.15     \n\nextreme disagreements (bool strong vs 3way cheap, or bool cheap vs 3way strong): 0\n3-way used the mid tier on 2/6 queries \u2014 mid tier is doing real work\n"
+      }
+    ]
+  },
+  "original-109": {
+    "description": "Saved original notebook cell 109; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "threshold sweep over the routing suite (escalations = queries sent STRONG):\n"
+      },
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  threshold=0.3: 2/6 escalate to STRONG\n  threshold=0.5: 2/6 escalate to STRONG\n  threshold=0.7: 1/6 escalate to STRONG\n  threshold=0.9: 0/6 escalate to STRONG\n\nraw calibrated p(needs strong) per query:\n  0.05 | What is 2+2?\n  0.06 | Capital of Norway?\n  0.14 | Explain the difference between TCP and UDP.\n  0.79 | Design a fair multi-tenant rate limiter and justify the\n  0.53 | Prove that the square root of 2 is irrational and discu\n  0.07 | Write a one-liner to reverse a string in Python.\n"
+      }
+    ]
+  },
+  "original-111": {
+    "description": "Saved original notebook cell 111; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "  \u2713 sound=True  p=0.99 | Task: compute 7*19. Claimed result: 133.\n  \u2713 sound=False p=0.05 | Task: compute 7*19. Claimed result: 130.\n  \u2713 sound=True  p=0.99 | Task: name the capital of France. Claimed: Paris.\n  \u2713 sound=False p=0.01 | Task: name the capital of France. Claimed: Lyon.\n\ntrust-v1-bool accuracy: 4/4\n"
+      }
+    ]
+  },
+  "original-113": {
+    "description": "Saved original notebook cell 113; historical result, not a new API call.",
+    "outputs": [
+      {
+        "name": "stdout",
+        "output_type": "stream",
+        "text": "fleet-v1-choice: node=node-b conf=0.96\n  task: Run a 6GB LLM inference batch needing low load. \n"
+      }
+    ]
+  }
+}

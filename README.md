@@ -3,9 +3,13 @@
 A clean, portable version of the Jev notebook: typed decisions, model-lane hypotheses, reasoning-lens selection, structural variants, numeric recurrence findings, and a terse tool-grounded adversarial peer.
 
 **Original notebook, with all saved cells and results:** [jev_api_test.ipynb](jev_api_test.ipynb)
+**Output-focused HTML:** [saved_outputs.html](saved_outputs.html)
+
+**Rendered notebook with outputs:** https://nbviewer.org/github/arthurcolle/jev-reasoning-lab/blob/main/jev_api_test.ipynb
+
 **Static HTML, also with saved results:** [jev_api_test.html](jev_api_test.html)
 
-The full notebook retains its original cell order and execution outputs, with private infrastructure identifiers redacted. It is a historical executed snapshot, not an offline Run All target. The smaller `notebooks/` files below are separate portable, offline-by-default demos—not replacements for the original.
+The full notebook retains its original cell order and execution outputs, with private infrastructure identifiers redacted. It is a historical executed snapshot, not an offline Run All target. The smaller `notebooks/` files below also include saved outputs. Offline API examples replay clearly labeled historical results; local examples show actual offline outputs. Their HTML exports are beside them.
 
 ## Setup
 
