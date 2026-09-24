@@ -2,7 +2,10 @@
 
 A clean, portable version of the Jev notebook: typed decisions, model-lane hypotheses, reasoning-lens selection, structural variants, numeric recurrence findings, and a terse tool-grounded adversarial peer.
 
-**Start here:** [`notebooks/01_jev_api.ipynb`](notebooks/01_jev_api.ipynb).
+**Original notebook, with all saved cells and results:** [jev_api_test.ipynb](jev_api_test.ipynb)
+**Static HTML, also with saved results:** [jev_api_test.html](jev_api_test.html)
+
+The full notebook retains its original cell order and execution outputs, with private infrastructure identifiers redacted. It is a historical executed snapshot, not an offline Run All target. The smaller `notebooks/` files below are separate portable, offline-by-default demos—not replacements for the original.
 
 ## Setup
 
@@ -15,7 +18,7 @@ python -m pip install -e '.[notebooks]'
 jupyter lab
 ```
 
-All notebooks run **offline by default**. To deliberately run paid TypeSafe examples, export your own key and opt in **before launching Jupyter**:
+The five portable notebooks under `notebooks/` run **offline by default**. The root historical notebook preserves its original live cells; see its opening warning. To deliberately run paid TypeSafe examples, export your own key and opt in **before launching Jupyter**:
 
 ```sh
 export TYPESAFE_API_KEY='YOUR_OWN_KEY'
@@ -51,6 +54,6 @@ The test suite makes no paid calls. Notebook validation is described in `docs/VA
 
 Included: portable tutorial content, small standalone Python components, synthetic exact-tool fixtures, and sanitized aggregate results.
 
-Excluded: credentials, notebook execution outputs, machine addresses, SSH keys/configuration, cloud-fleet commands, local checkout paths, raw private conversations, DSCO's native runtime/router implementation and git history. Native C Jev routing remains in DSCO; this repository is the shareable research lab, not a claim that all DSCO routing technology has been extracted.
+Excluded: credentials, actual machine addresses, SSH key material/configuration, actual private filesystem paths, raw private conversations, DSCO's native runtime/router implementation and git history. The root historical notebook retains fleet example code and recorded outputs, with private identifiers redacted; the portable demos perform no fleet dispatch. Native C Jev routing remains in DSCO; this repository is the shareable research lab, not a claim that all DSCO routing technology has been extracted.
 
-Original notebooks and projects remain untouched. See `LICENSE_SCOPE.md` for retained notices and the pending repository-wide license decision. No remote repository or collaborator invitation is created by this local extraction.
+Original notebooks and projects remain untouched. See `LICENSE_SCOPE.md` for retained notices and the pending repository-wide license decision. The repository is published on GitHub. No collaborator invitation was needed for public viewing.
